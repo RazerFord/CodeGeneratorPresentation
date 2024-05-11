@@ -2,21 +2,21 @@ package org.example;
 
 public class Geo {
     /* here is very important code */
-    public Point getPositionById(int id) {
-        Point point = points[id];
+    public Point1 getPositionById(int id) {
+        Point1 point = points[id];
         /* here is very important code */
 
         return point;
     }
 
-    private final Point[] points = new Point[1000];
+    private final Point1[] points = new Point1[1000];
 
     {
         for (int i = 0; i < points.length; i++) {
-            Point p = new Point();
-            p.setX(10);
-            p.setY(20);
-            p.setZ(30);
+            Point1 p = new Point1();
+            p.x(10);
+            p.y(20);
+            p.z(30);
             points[i] = p;
         }
     }
