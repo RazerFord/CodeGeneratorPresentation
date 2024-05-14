@@ -1,0 +1,103 @@
+Path for java installation 'C:\Users\User\.jdks\corretto-17.0.10' (IntelliJ IDEA) does not contain a java executable
+> Task :codegenerator:checkKotlinGradlePluginConfigurationErrors
+> Task :common:compileJava UP-TO-DATE
+> Task :common:processResources NO-SOURCE
+> Task :common:classes UP-TO-DATE
+> Task :common:jar UP-TO-DATE
+> Task :codegenerator:compileKotlin UP-TO-DATE
+> Task :codegenerator:compileJava UP-TO-DATE
+> Task :codegenerator:processResources NO-SOURCE
+> Task :codegenerator:classes UP-TO-DATE
+> Task :codegenerator:compileTestKotlin NO-SOURCE
+> Task :codegenerator:compileTestJava
+> Task :codegenerator:processTestResources UP-TO-DATE
+> Task :codegenerator:testClasses
+> Task :codegenerator:compileJmhKotlin NO-SOURCE
+> Task :codegenerator:compileJmhJava NO-SOURCE
+> Task :codegenerator:processJmhResources NO-SOURCE
+> Task :codegenerator:jmhClasses UP-TO-DATE
+
+> Task :codegenerator:jmhRunBytecodeGenerator
+Processing 0 classes from C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\classes\java\jmh with "reflection" generator
+Writing out Java source to C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\jmh-generated-sources and resources to C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\jmh-generated-resources
+Processing 0 classes from C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\classes\kotlin\jmh with "reflection" generator
+Writing out Java source to C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\jmh-generated-sources and resources to C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\jmh-generated-resources
+Processing 87 classes from C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\classes\java\test with "reflection" generator
+Writing out Java source to C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\jmh-generated-sources and resources to C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\jmh-generated-resources
+Processing 0 classes from C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\classes\kotlin\test with "reflection" generator
+Writing out Java source to C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\jmh-generated-sources and resources to C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\jmh-generated-resources
+
+> Task :codegenerator:jmhCompileGeneratedClasses UP-TO-DATE
+> Task :codegenerator:jmhJar
+
+> Task :codegenerator:jmh
+# JMH version: 1.36
+# VM version: JDK 1.8.0_412, OpenJDK 64-Bit Server VM, 25.412-b08
+# VM invoker: C:\Users\User\.jdks\corretto-1.8.0_412\jre\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\tmp\jmh -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 2 s each
+# Measurement: 10 iterations, 4 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.codegenerator.SearchMethodsCollectionBenchmark.findMethods
+# Parameters: (size = 1)
+
+# Run progress: 0,00% complete, ETA 00:05:50
+# Fork: 1 of 1
+# Warmup Iteration   1: <failure>
+
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at org.codegenerator.generator.graph.LazySimpleMethodGraph.applyMethods(LazySimpleMethodGraph.java:156)
+	at org.codegenerator.generator.graph.LazySimpleMethodGraph.bfs(LazySimpleMethodGraph.java:133)
+	at org.codegenerator.generator.graph.LazySimpleMethodGraph.findPathInternal(LazySimpleMethodGraph.java:73)
+	at org.codegenerator.generator.graph.LazySimpleMethodGraph.findPath(LazySimpleMethodGraph.java:55)
+	at org.codegenerator.generator.graph.LazyGraphCombinationPOJO.findPath(LazyGraphCombinationPOJO.java:31)
+	at org.codegenerator.generator.methodsequencefinders.concrete.POJOMethodSequenceFinder.findCallsInternal(POJOMethodSequenceFinder.java:166)
+	at org.codegenerator.generator.methodsequencefinders.concrete.POJOMethodSequenceFinder.findReflectionCallsInternal(POJOMethodSequenceFinder.java:138)
+	at org.codegenerator.generator.methodsequencefinders.PipelineMethodSequencePipeline.tryFindReflectionCalls(PipelineMethodSequencePipeline.java:146)
+	at org.codegenerator.generator.methodsequencefinders.PipelineMethodSequencePipeline.lambda$findReflectionCallsRecursive$0(PipelineMethodSequencePipeline.java:93)
+	at org.codegenerator.generator.methodsequencefinders.PipelineMethodSequencePipeline$$Lambda$12/574396801.accept(Unknown Source)
+	at org.codegenerator.generator.methodsequencefinders.PipelineMethodSequencePipeline.findCallsRecursiveBase(PipelineMethodSequencePipeline.java:119)
+	at org.codegenerator.generator.methodsequencefinders.PipelineMethodSequencePipeline.findReflectionCallsRecursive(PipelineMethodSequencePipeline.java:93)
+	at org.codegenerator.generator.methodsequencefinders.PipelineMethodSequencePipeline.lambda$tryFindReflectionCalls$3(PipelineMethodSequencePipeline.java:156)
+	at org.codegenerator.generator.methodsequencefinders.PipelineMethodSequencePipeline$$Lambda$70/1679235531.accept(Unknown Source)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1384)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:485)
+	at org.codegenerator.generator.methodsequencefinders.PipelineMethodSequencePipeline.tryFindReflectionCalls(PipelineMethodSequencePipeline.java:156)
+	at org.codegenerator.generator.methodsequencefinders.PipelineMethodSequencePipeline.lambda$findReflectionCallsRecursive$0(PipelineMethodSequencePipeline.java:93)
+	at org.codegenerator.generator.methodsequencefinders.PipelineMethodSequencePipeline$$Lambda$12/574396801.accept(Unknown Source)
+	at org.codegenerator.generator.methodsequencefinders.PipelineMethodSequencePipeline.findCallsRecursiveBase(PipelineMethodSequencePipeline.java:129)
+	at org.codegenerator.generator.methodsequencefinders.PipelineMethodSequencePipeline.findReflectionCallsRecursive(PipelineMethodSequencePipeline.java:93)
+	at org.codegenerator.generator.methodsequencefinders.PipelineMethodSequencePipeline.lambda$tryFindReflectionCalls$3(PipelineMethodSequencePipeline.java:156)
+	at org.codegenerator.generator.methodsequencefinders.PipelineMethodSequencePipeline$$Lambda$70/1679235531.accept(Unknown Source)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+
+
+
+
+# JMH version: 1.36
+# VM version: JDK 1.8.0_412, OpenJDK 64-Bit Server VM, 25.412-b08
+# VM invoker: C:\Users\User\.jdks\corretto-1.8.0_412\jre\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\tmp\jmh -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 2 s each
+# Measurement: 10 iterations, 4 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.codegenerator.SearchMethodsCollectionBenchmark.findMethods
+# Parameters: (size = 2)
+
+# Run progress: 14,29% complete, ETA 00:28:03
+# Fork: 1 of 1
+# Warmup Iteration   1: 

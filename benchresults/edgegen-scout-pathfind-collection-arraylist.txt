@@ -1,0 +1,844 @@
+Path for java installation 'C:\Users\User\.jdks\corretto-17.0.10' (IntelliJ IDEA) does not contain a java executable
+> Task :codegenerator:checkKotlinGradlePluginConfigurationErrors
+> Task :common:compileJava UP-TO-DATE
+> Task :common:processResources NO-SOURCE
+> Task :common:classes UP-TO-DATE
+> Task :common:jar UP-TO-DATE
+> Task :codegenerator:compileKotlin UP-TO-DATE
+> Task :codegenerator:compileJava UP-TO-DATE
+> Task :codegenerator:processResources NO-SOURCE
+> Task :codegenerator:classes UP-TO-DATE
+> Task :codegenerator:compileTestKotlin NO-SOURCE
+> Task :codegenerator:compileTestJava
+> Task :codegenerator:processTestResources UP-TO-DATE
+> Task :codegenerator:testClasses
+> Task :codegenerator:compileJmhKotlin NO-SOURCE
+> Task :codegenerator:compileJmhJava NO-SOURCE
+> Task :codegenerator:processJmhResources NO-SOURCE
+> Task :codegenerator:jmhClasses UP-TO-DATE
+
+> Task :codegenerator:jmhRunBytecodeGenerator
+Processing 0 classes from C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\classes\java\jmh with "reflection" generator
+Writing out Java source to C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\jmh-generated-sources and resources to C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\jmh-generated-resources
+Processing 0 classes from C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\classes\kotlin\jmh with "reflection" generator
+Writing out Java source to C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\jmh-generated-sources and resources to C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\jmh-generated-resources
+Processing 87 classes from C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\classes\java\test with "reflection" generator
+Writing out Java source to C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\jmh-generated-sources and resources to C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\jmh-generated-resources
+Processing 0 classes from C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\classes\kotlin\test with "reflection" generator
+Writing out Java source to C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\jmh-generated-sources and resources to C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\jmh-generated-resources
+
+> Task :codegenerator:jmhCompileGeneratedClasses UP-TO-DATE
+> Task :codegenerator:jmhJar
+
+> Task :codegenerator:jmh
+# JMH version: 1.36
+# VM version: JDK 1.8.0_412, OpenJDK 64-Bit Server VM, 25.412-b08
+# VM invoker: C:\Users\User\.jdks\corretto-1.8.0_412\jre\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\tmp\jmh -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 2 s each
+# Measurement: 10 iterations, 4 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.codegenerator.SearchMethodsCollectionBenchmark.findMethods
+# Parameters: (size = 1)
+
+# Run progress: 0,00% complete, ETA 00:05:50
+# Fork: 1 of 1
+# Warmup Iteration   1: 59,155 ms/op
+# Warmup Iteration   2: 34,464 ms/op
+# Warmup Iteration   3: 24,690 ms/op
+# Warmup Iteration   4: 25,990 ms/op
+# Warmup Iteration   5: 30,506 ms/op
+Iteration   1: 22,389 ms/op
+                 ·gc.alloc.rate:      194,488 MB/sec
+                 ·gc.alloc.rate.norm: 4566665,422 B/op
+                 ·gc.count:           4,000 counts
+                 ·gc.time:            3,000 ms
+
+Iteration   2: 30,483 ms/op
+                 ·gc.alloc.rate:      142,764 MB/sec
+                 ·gc.alloc.rate.norm: 4564175,515 B/op
+                 ·gc.count:           4,000 counts
+                 ·gc.time:            37,000 ms
+
+Iteration   3: 24,523 ms/op
+                 ·gc.alloc.rate:      177,459 MB/sec
+                 ·gc.alloc.rate.norm: 4563757,366 B/op
+                 ·gc.count:           4,000 counts
+                 ·gc.time:            8,000 ms
+
+Iteration   4: 27,701 ms/op
+                 ·gc.alloc.rate:      157,093 MB/sec
+                 ·gc.alloc.rate.norm: 4563733,959 B/op
+                 ·gc.count:           5,000 counts
+                 ·gc.time:            60,000 ms
+
+Iteration   5: 24,575 ms/op
+                 ·gc.alloc.rate:      177,024 MB/sec
+                 ·gc.alloc.rate.norm: 4562277,527 B/op
+                 ·gc.count:           4,000 counts
+                 ·gc.time:            26,000 ms
+
+Iteration   6: 23,950 ms/op
+                 ·gc.alloc.rate:      181,612 MB/sec
+                 ·gc.alloc.rate.norm: 4561521,000 B/op
+                 ·gc.count:           5,000 counts
+                 ·gc.time:            14,000 ms
+
+Iteration   7: 30,735 ms/op
+                 ·gc.alloc.rate:      141,499 MB/sec
+                 ·gc.alloc.rate.norm: 4560905,893 B/op
+                 ·gc.count:           4,000 counts
+                 ·gc.time:            52,000 ms
+
+Iteration   8: 23,934 ms/op
+                 ·gc.alloc.rate:      181,705 MB/sec
+                 ·gc.alloc.rate.norm: 4560839,765 B/op
+                 ·gc.count:           6,000 counts
+                 ·gc.time:            13,000 ms
+
+Iteration   9: 27,754 ms/op
+                 ·gc.alloc.rate:      156,687 MB/sec
+                 ·gc.alloc.rate.norm: 4560839,779 B/op
+                 ·gc.count:           4,000 counts
+                 ·gc.time:            45,000 ms
+
+Iteration  10: 26,913 ms/op
+                 ·gc.alloc.rate:      161,581 MB/sec
+                 ·gc.alloc.rate.norm: 4560829,920 B/op
+                 ·gc.count:           5,000 counts
+                 ·gc.time:            69,000 ms
+
+
+
+Result "org.codegenerator.SearchMethodsCollectionBenchmark.findMethods":
+  26,296 ±(99.9%) 4,340 ms/op [Average]
+  (min, avg, max) = (22,389, 26,296, 30,735), stdev = 2,871
+  CI (99.9%): [21,955, 30,636] (assumes normal distribution)
+
+Secondary result "org.codegenerator.SearchMethodsCollectionBenchmark.findMethods:·gc.alloc.rate":
+  167,191 ±(99.9%) 26,981 MB/sec [Average]
+  (min, avg, max) = (141,499, 167,191, 194,488), stdev = 17,846
+  CI (99.9%): [140,210, 194,172] (assumes normal distribution)
+
+Secondary result "org.codegenerator.SearchMethodsCollectionBenchmark.findMethods:·gc.alloc.rate.norm":
+  4562554,615 ±(99.9%) 2984,951 B/op [Average]
+  (min, avg, max) = (4560829,920, 4562554,615, 4566665,422), stdev = 1974,360
+  CI (99.9%): [4559569,664, 4565539,565] (assumes normal distribution)
+
+Secondary result "org.codegenerator.SearchMethodsCollectionBenchmark.findMethods:·gc.count":
+  45,000 ±(99.9%) 0,001 counts [Sum]
+  (min, avg, max) = (4,000, 4,500, 6,000), stdev = 0,707
+  CI (99.9%): [45,000, 45,000] (assumes normal distribution)
+
+Secondary result "org.codegenerator.SearchMethodsCollectionBenchmark.findMethods:·gc.time":
+  327,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (3,000, 32,700, 69,000), stdev = 23,286
+  CI (99.9%): [327,000, 327,000] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 1.8.0_412, OpenJDK 64-Bit Server VM, 25.412-b08
+# VM invoker: C:\Users\User\.jdks\corretto-1.8.0_412\jre\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\tmp\jmh -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 2 s each
+# Measurement: 10 iterations, 4 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.codegenerator.SearchMethodsCollectionBenchmark.findMethods
+# Parameters: (size = 2)
+
+# Run progress: 14,29% complete, ETA 00:05:07
+# Fork: 1 of 1
+# Warmup Iteration   1: 40,332 ms/op
+# Warmup Iteration   2: 29,526 ms/op
+# Warmup Iteration   3: 41,623 ms/op
+# Warmup Iteration   4: 31,913 ms/op
+# Warmup Iteration   5: 25,317 ms/op
+Iteration   1: 34,026 ms/op
+                 ·gc.alloc.rate:      146,462 MB/sec
+                 ·gc.alloc.rate.norm: 5226583,119 B/op
+                 ·gc.count:           5,000 counts
+                 ·gc.time:            50,000 ms
+
+Iteration   2: 26,261 ms/op
+                 ·gc.alloc.rate:      187,569 MB/sec
+                 ·gc.alloc.rate.norm: 5165913,974 B/op
+                 ·gc.count:           4,000 counts
+                 ·gc.time:            3,000 ms
+
+Iteration   3: 30,704 ms/op
+                 ·gc.alloc.rate:      161,307 MB/sec
+                 ·gc.alloc.rate.norm: 5194240,794 B/op
+                 ·gc.count:           4,000 counts
+                 ·gc.time:            52,000 ms
+
+Iteration   4: 29,984 ms/op
+                 ·gc.alloc.rate:      163,732 MB/sec
+                 ·gc.alloc.rate.norm: 5148565,807 B/op
+                 ·gc.count:           4,000 counts
+                 ·gc.time:            27,000 ms
+
+Iteration   5: 29,023 ms/op
+                 ·gc.alloc.rate:      170,534 MB/sec
+                 ·gc.alloc.rate.norm: 5190689,669 B/op
+                 ·gc.count:           5,000 counts
+                 ·gc.time:            7,000 ms
+
+Iteration   6: 31,848 ms/op
+                 ·gc.alloc.rate:      156,111 MB/sec
+                 ·gc.alloc.rate.norm: 5218964,571 B/op
+                 ·gc.count:           4,000 counts
+                 ·gc.time:            65,000 ms
+
+Iteration   7: 25,139 ms/op
+                 ·gc.alloc.rate:      195,761 MB/sec
+                 ·gc.alloc.rate.norm: 5161253,250 B/op
+                 ·gc.count:           5,000 counts
+                 ·gc.time:            4,000 ms
+
+Iteration   8: 32,188 ms/op
+                 ·gc.alloc.rate:      154,157 MB/sec
+                 ·gc.alloc.rate.norm: 5203991,104 B/op
+                 ·gc.count:           4,000 counts
+                 ·gc.time:            21,000 ms
+
+Iteration   9: 19,771 ms/op
+                 ·gc.alloc.rate:      249,588 MB/sec
+                 ·gc.alloc.rate.norm: 5175054,778 B/op
+                 ·gc.count:           8,000 counts
+                 ·gc.time:            5,000 ms
+
+Iteration  10: 18,092 ms/op
+                 ·gc.alloc.rate:      271,249 MB/sec
+                 ·gc.alloc.rate.norm: 5146377,261 B/op
+                 ·gc.count:           12,000 counts
+                 ·gc.time:            7,000 ms
+
+
+
+Result "org.codegenerator.SearchMethodsCollectionBenchmark.findMethods":
+  27,703 ±(99.9%) 8,082 ms/op [Average]
+  (min, avg, max) = (18,092, 27,703, 34,026), stdev = 5,346
+  CI (99.9%): [19,622, 35,785] (assumes normal distribution)
+
+Secondary result "org.codegenerator.SearchMethodsCollectionBenchmark.findMethods:·gc.alloc.rate":
+  185,647 ±(99.9%) 64,188 MB/sec [Average]
+  (min, avg, max) = (146,462, 185,647, 271,249), stdev = 42,456
+  CI (99.9%): [121,459, 249,835] (assumes normal distribution)
+
+Secondary result "org.codegenerator.SearchMethodsCollectionBenchmark.findMethods:·gc.alloc.rate.norm":
+  5183163,433 ±(99.9%) 42683,620 B/op [Average]
+  (min, avg, max) = (5146377,261, 5183163,433, 5226583,119), stdev = 28232,572
+  CI (99.9%): [5140479,813, 5225847,053] (assumes normal distribution)
+
+Secondary result "org.codegenerator.SearchMethodsCollectionBenchmark.findMethods:·gc.count":
+  55,000 ±(99.9%) 0,001 counts [Sum]
+  (min, avg, max) = (4,000, 5,500, 12,000), stdev = 2,593
+  CI (99.9%): [55,000, 55,000] (assumes normal distribution)
+
+Secondary result "org.codegenerator.SearchMethodsCollectionBenchmark.findMethods:·gc.time":
+  241,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (3,000, 24,100, 65,000), stdev = 23,426
+  CI (99.9%): [241,000, 241,000] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 1.8.0_412, OpenJDK 64-Bit Server VM, 25.412-b08
+# VM invoker: C:\Users\User\.jdks\corretto-1.8.0_412\jre\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\tmp\jmh -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 2 s each
+# Measurement: 10 iterations, 4 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.codegenerator.SearchMethodsCollectionBenchmark.findMethods
+# Parameters: (size = 3)
+
+# Run progress: 28,57% complete, ETA 00:04:17
+# Fork: 1 of 1
+# Warmup Iteration   1: 27,919 ms/op
+# Warmup Iteration   2: 21,931 ms/op
+# Warmup Iteration   3: 21,303 ms/op
+# Warmup Iteration   4: 22,008 ms/op
+# Warmup Iteration   5: 21,800 ms/op
+Iteration   1: 21,078 ms/op
+                 ·gc.alloc.rate:      298,433 MB/sec
+                 ·gc.alloc.rate.norm: 6596879,116 B/op
+                 ·gc.count:           41,000 counts
+                 ·gc.time:            24,000 ms
+
+Iteration   2: 21,923 ms/op
+                 ·gc.alloc.rate:      273,419 MB/sec
+                 ·gc.alloc.rate.norm: 6286660,652 B/op
+                 ·gc.count:           38,000 counts
+                 ·gc.time:            21,000 ms
+
+Iteration   3: 21,627 ms/op
+                 ·gc.alloc.rate:      289,352 MB/sec
+                 ·gc.alloc.rate.norm: 6562492,989 B/op
+                 ·gc.count:           40,000 counts
+                 ·gc.time:            25,000 ms
+
+Iteration   4: 20,370 ms/op
+                 ·gc.alloc.rate:      288,329 MB/sec
+                 ·gc.alloc.rate.norm: 6159444,223 B/op
+                 ·gc.count:           40,000 counts
+                 ·gc.time:            23,000 ms
+
+Iteration   5: 20,958 ms/op
+                 ·gc.alloc.rate:      290,035 MB/sec
+                 ·gc.alloc.rate.norm: 6374710,875 B/op
+                 ·gc.count:           39,000 counts
+                 ·gc.time:            25,000 ms
+
+Iteration   6: 20,061 ms/op
+                 ·gc.alloc.rate:      292,718 MB/sec
+                 ·gc.alloc.rate.norm: 6158436,040 B/op
+                 ·gc.count:           41,000 counts
+                 ·gc.time:            25,000 ms
+
+Iteration   7: 20,375 ms/op
+                 ·gc.alloc.rate:      309,145 MB/sec
+                 ·gc.alloc.rate.norm: 6605699,208 B/op
+                 ·gc.count:           42,000 counts
+                 ·gc.time:            24,000 ms
+
+Iteration   8: 20,357 ms/op
+                 ·gc.alloc.rate:      307,282 MB/sec
+                 ·gc.alloc.rate.norm: 6560143,107 B/op
+                 ·gc.count:           43,000 counts
+                 ·gc.time:            26,000 ms
+
+Iteration   9: 20,208 ms/op
+                 ·gc.alloc.rate:      292,938 MB/sec
+                 ·gc.alloc.rate.norm: 6207848,683 B/op
+                 ·gc.count:           40,000 counts
+                 ·gc.time:            24,000 ms
+
+Iteration  10: 20,796 ms/op
+                 ·gc.alloc.rate:      280,239 MB/sec
+                 ·gc.alloc.rate.norm: 6111799,751 B/op
+                 ·gc.count:           39,000 counts
+                 ·gc.time:            24,000 ms
+
+
+
+Result "org.codegenerator.SearchMethodsCollectionBenchmark.findMethods":
+  20,775 ±(99.9%) 0,943 ms/op [Average]
+  (min, avg, max) = (20,061, 20,775, 21,923), stdev = 0,624
+  CI (99.9%): [19,832, 21,718] (assumes normal distribution)
+
+Secondary result "org.codegenerator.SearchMethodsCollectionBenchmark.findMethods:·gc.alloc.rate":
+  292,189 ±(99.9%) 16,545 MB/sec [Average]
+  (min, avg, max) = (273,419, 292,189, 309,145), stdev = 10,943
+  CI (99.9%): [275,644, 308,734] (assumes normal distribution)
+
+Secondary result "org.codegenerator.SearchMethodsCollectionBenchmark.findMethods:·gc.alloc.rate.norm":
+  6362411,464 ±(99.9%) 305995,605 B/op [Average]
+  (min, avg, max) = (6111799,751, 6362411,464, 6605699,208), stdev = 202397,147
+  CI (99.9%): [6056415,860, 6668407,069] (assumes normal distribution)
+
+Secondary result "org.codegenerator.SearchMethodsCollectionBenchmark.findMethods:·gc.count":
+  403,000 ±(99.9%) 0,001 counts [Sum]
+  (min, avg, max) = (38,000, 40,300, 43,000), stdev = 1,494
+  CI (99.9%): [403,000, 403,000] (assumes normal distribution)
+
+Secondary result "org.codegenerator.SearchMethodsCollectionBenchmark.findMethods:·gc.time":
+  241,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (21,000, 24,100, 26,000), stdev = 1,370
+  CI (99.9%): [241,000, 241,000] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 1.8.0_412, OpenJDK 64-Bit Server VM, 25.412-b08
+# VM invoker: C:\Users\User\.jdks\corretto-1.8.0_412\jre\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\tmp\jmh -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 2 s each
+# Measurement: 10 iterations, 4 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.codegenerator.SearchMethodsCollectionBenchmark.findMethods
+# Parameters: (size = 4)
+
+# Run progress: 42,86% complete, ETA 00:03:25
+# Fork: 1 of 1
+# Warmup Iteration   1: 33,806 ms/op
+# Warmup Iteration   2: 28,505 ms/op
+# Warmup Iteration   3: 27,129 ms/op
+# Warmup Iteration   4: 26,359 ms/op
+# Warmup Iteration   5: 26,944 ms/op
+Iteration   1: 44,809 ms/op
+                 ·gc.alloc.rate:      302,865 MB/sec
+                 ·gc.alloc.rate.norm: 14232750,933 B/op
+                 ·gc.count:           18,000 counts
+                 ·gc.time:            59,000 ms
+
+Iteration   2: 24,872 ms/op
+                 ·gc.alloc.rate:      433,105 MB/sec
+                 ·gc.alloc.rate.norm: 11297213,235 B/op
+                 ·gc.count:           27,000 counts
+                 ·gc.time:            17,000 ms
+
+Iteration   3: 25,297 ms/op
+                 ·gc.alloc.rate:      343,556 MB/sec
+                 ·gc.alloc.rate.norm: 9116064,252 B/op
+                 ·gc.count:           36,000 counts
+                 ·gc.time:            21,000 ms
+
+Iteration   4: 25,924 ms/op
+                 ·gc.alloc.rate:      514,973 MB/sec
+                 ·gc.alloc.rate.norm: 14000311,484 B/op
+                 ·gc.count:           58,000 counts
+                 ·gc.time:            36,000 ms
+
+Iteration   5: 24,242 ms/op
+                 ·gc.alloc.rate:      378,510 MB/sec
+                 ·gc.alloc.rate.norm: 9623118,651 B/op
+                 ·gc.count:           50,000 counts
+                 ·gc.time:            29,000 ms
+
+Iteration   6: 24,516 ms/op
+                 ·gc.alloc.rate:      412,438 MB/sec
+                 ·gc.alloc.rate.norm: 10604286,829 B/op
+                 ·gc.count:           57,000 counts
+                 ·gc.time:            34,000 ms
+
+Iteration   7: 25,551 ms/op
+                 ·gc.alloc.rate:      564,536 MB/sec
+                 ·gc.alloc.rate.norm: 15127585,478 B/op
+                 ·gc.count:           55,000 counts
+                 ·gc.time:            36,000 ms
+
+Iteration   8: 23,562 ms/op
+                 ·gc.alloc.rate:      396,727 MB/sec
+                 ·gc.alloc.rate.norm: 9803295,059 B/op
+                 ·gc.count:           37,000 counts
+                 ·gc.time:            26,000 ms
+
+Iteration   9: 25,647 ms/op
+                 ·gc.alloc.rate:      546,713 MB/sec
+                 ·gc.alloc.rate.norm: 14705083,771 B/op
+                 ·gc.count:           60,000 counts
+                 ·gc.time:            38,000 ms
+
+Iteration  10: 25,676 ms/op
+                 ·gc.alloc.rate:      483,229 MB/sec
+                 ·gc.alloc.rate.norm: 13012355,465 B/op
+                 ·gc.count:           57,000 counts
+                 ·gc.time:            35,000 ms
+
+
+
+Result "org.codegenerator.SearchMethodsCollectionBenchmark.findMethods":
+  27,010 ±(99.9%) 9,522 ms/op [Average]
+  (min, avg, max) = (23,562, 27,010, 44,809), stdev = 6,298
+  CI (99.9%): [17,487, 36,532] (assumes normal distribution)
+
+Secondary result "org.codegenerator.SearchMethodsCollectionBenchmark.findMethods:·gc.alloc.rate":
+  437,665 ±(99.9%) 132,282 MB/sec [Average]
+  (min, avg, max) = (302,865, 437,665, 564,536), stdev = 87,496
+  CI (99.9%): [305,383, 569,947] (assumes normal distribution)
+
+Secondary result "org.codegenerator.SearchMethodsCollectionBenchmark.findMethods:·gc.alloc.rate.norm":
+  12152206,516 ±(99.9%) 3495591,325 B/op [Average]
+  (min, avg, max) = (9116064,252, 12152206,516, 15127585,478), stdev = 2312117,228
+  CI (99.9%): [8656615,191, 15647797,840] (assumes normal distribution)
+
+Secondary result "org.codegenerator.SearchMethodsCollectionBenchmark.findMethods:·gc.count":
+  455,000 ±(99.9%) 0,001 counts [Sum]
+  (min, avg, max) = (18,000, 45,500, 60,000), stdev = 14,916
+  CI (99.9%): [455,000, 455,000] (assumes normal distribution)
+
+Secondary result "org.codegenerator.SearchMethodsCollectionBenchmark.findMethods:·gc.time":
+  331,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (17,000, 33,100, 59,000), stdev = 11,493
+  CI (99.9%): [331,000, 331,000] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 1.8.0_412, OpenJDK 64-Bit Server VM, 25.412-b08
+# VM invoker: C:\Users\User\.jdks\corretto-1.8.0_412\jre\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\tmp\jmh -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 2 s each
+# Measurement: 10 iterations, 4 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.codegenerator.SearchMethodsCollectionBenchmark.findMethods
+# Parameters: (size = 5)
+
+# Run progress: 57,14% complete, ETA 00:02:33
+# Fork: 1 of 1
+# Warmup Iteration   1: 114,584 ms/op
+# Warmup Iteration   2: 64,911 ms/op
+# Warmup Iteration   3: 75,966 ms/op
+# Warmup Iteration   4: 65,243 ms/op
+# Warmup Iteration   5: 42,299 ms/op
+Iteration   1: 52,591 ms/op
+                 ·gc.alloc.rate:      1168,128 MB/sec
+                 ·gc.alloc.rate.norm: 64424670,545 B/op
+                 ·gc.count:           7,000 counts
+                 ·gc.time:            12,000 ms
+
+Iteration   2: 81,242 ms/op
+                 ·gc.alloc.rate:      1445,576 MB/sec
+                 ·gc.alloc.rate.norm: 123173981,600 B/op
+                 ·gc.count:           14,000 counts
+                 ·gc.time:            34,000 ms
+
+Iteration   3: 44,903 ms/op
+                 ·gc.alloc.rate:      1059,335 MB/sec
+                 ·gc.alloc.rate.norm: 49889208,622 B/op
+                 ·gc.count:           20,000 counts
+                 ·gc.time:            25,000 ms
+
+Iteration   4: 78,235 ms/op
+                 ·gc.alloc.rate:      1396,083 MB/sec
+                 ·gc.alloc.rate.norm: 114545401,385 B/op
+                 ·gc.count:           15,000 counts
+                 ·gc.time:            30,000 ms
+
+Iteration   5: 46,546 ms/op
+                 ·gc.alloc.rate:      992,152 MB/sec
+                 ·gc.alloc.rate.norm: 48431540,966 B/op
+                 ·gc.count:           12,000 counts
+                 ·gc.time:            18,000 ms
+
+Iteration   6: 75,352 ms/op
+                 ·gc.alloc.rate:      1071,431 MB/sec
+                 ·gc.alloc.rate.norm: 84667187,556 B/op
+                 ·gc.count:           14,000 counts
+                 ·gc.time:            38,000 ms
+
+Iteration   7: 67,556 ms/op
+                 ·gc.alloc.rate:      1343,180 MB/sec
+                 ·gc.alloc.rate.norm: 95162859,600 B/op
+                 ·gc.count:           17,000 counts
+                 ·gc.time:            35,000 ms
+
+Iteration   8: 71,667 ms/op
+                 ·gc.alloc.rate:      1077,642 MB/sec
+                 ·gc.alloc.rate.norm: 80995103,000 B/op
+                 ·gc.count:           20,000 counts
+                 ·gc.time:            35,000 ms
+
+Iteration   9: 46,444 ms/op
+                 ·gc.alloc.rate:      843,544 MB/sec
+                 ·gc.alloc.rate.norm: 41087223,816 B/op
+                 ·gc.count:           17,000 counts
+                 ·gc.time:            31,000 ms
+
+Iteration  10: 38,888 ms/op
+                 ·gc.alloc.rate:      959,733 MB/sec
+                 ·gc.alloc.rate.norm: 39149870,757 B/op
+                 ·gc.count:           24,000 counts
+                 ·gc.time:            29,000 ms
+
+
+
+Result "org.codegenerator.SearchMethodsCollectionBenchmark.findMethods":
+  60,342 ±(99.9%) 24,194 ms/op [Average]
+  (min, avg, max) = (38,888, 60,342, 81,242), stdev = 16,003
+  CI (99.9%): [36,149, 84,536] (assumes normal distribution)
+
+Secondary result "org.codegenerator.SearchMethodsCollectionBenchmark.findMethods:·gc.alloc.rate":
+  1135,681 ±(99.9%) 301,606 MB/sec [Average]
+  (min, avg, max) = (843,544, 1135,681, 1445,576), stdev = 199,494
+  CI (99.9%): [834,074, 1437,287] (assumes normal distribution)
+
+Secondary result "org.codegenerator.SearchMethodsCollectionBenchmark.findMethods:·gc.alloc.rate.norm":
+  74152704,785 ±(99.9%) 45903703,336 B/op [Average]
+  (min, avg, max) = (39149870,757, 74152704,785, 123173981,600), stdev = 30362457,579
+  CI (99.9%): [28249001,449, 120056408,120] (assumes normal distribution)
+
+Secondary result "org.codegenerator.SearchMethodsCollectionBenchmark.findMethods:·gc.count":
+  160,000 ±(99.9%) 0,001 counts [Sum]
+  (min, avg, max) = (7,000, 16,000, 24,000), stdev = 4,761
+  CI (99.9%): [160,000, 160,000] (assumes normal distribution)
+
+Secondary result "org.codegenerator.SearchMethodsCollectionBenchmark.findMethods:·gc.time":
+  287,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (12,000, 28,700, 38,000), stdev = 8,220
+  CI (99.9%): [287,000, 287,000] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 1.8.0_412, OpenJDK 64-Bit Server VM, 25.412-b08
+# VM invoker: C:\Users\User\.jdks\corretto-1.8.0_412\jre\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\tmp\jmh -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 2 s each
+# Measurement: 10 iterations, 4 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.codegenerator.SearchMethodsCollectionBenchmark.findMethods
+# Parameters: (size = 6)
+
+# Run progress: 71,43% complete, ETA 00:01:42
+# Fork: 1 of 1
+# Warmup Iteration   1: 1662,557 ms/op
+# Warmup Iteration   2: 642,252 ms/op
+# Warmup Iteration   3: 236,657 ms/op
+# Warmup Iteration   4: 276,554 ms/op
+# Warmup Iteration   5: 704,897 ms/op
+Iteration   1: 374,039 ms/op
+                 ·gc.alloc.rate:      1687,760 MB/sec
+                 ·gc.alloc.rate.norm: 662046064,000 B/op
+                 ·gc.count:           7,000 counts
+                 ·gc.time:            103,000 ms
+
+Iteration   2: 1211,887 ms/op
+                 ·gc.alloc.rate:      1650,589 MB/sec
+                 ·gc.alloc.rate.norm: 2097719108,000 B/op
+                 ·gc.count:           7,000 counts
+                 ·gc.time:            196,000 ms
+
+Iteration   3: 444,493 ms/op
+                 ·gc.alloc.rate:      1695,492 MB/sec
+                 ·gc.alloc.rate.norm: 790345782,400 B/op
+                 ·gc.count:           8,000 counts
+                 ·gc.time:            114,000 ms
+
+Iteration   4: 1196,784 ms/op
+                 ·gc.alloc.rate:      1655,818 MB/sec
+                 ·gc.alloc.rate.norm: 2078167938,000 B/op
+                 ·gc.count:           7,000 counts
+                 ·gc.time:            167,000 ms
+
+Iteration   5: 662,737 ms/op
+                 ·gc.alloc.rate:      1715,590 MB/sec
+                 ·gc.alloc.rate.norm: 1192373669,714 B/op
+                 ·gc.count:           8,000 counts
+                 ·gc.time:            178,000 ms
+
+Iteration   6: 534,032 ms/op
+                 ·gc.alloc.rate:      1715,857 MB/sec
+                 ·gc.alloc.rate.norm: 960967314,000 B/op
+                 ·gc.count:           7,000 counts
+                 ·gc.time:            121,000 ms
+
+Iteration   7: 857,145 ms/op
+                 ·gc.alloc.rate:      1696,927 MB/sec
+                 ·gc.alloc.rate.norm: 1525336632,000 B/op
+                 ·gc.count:           7,000 counts
+                 ·gc.time:            190,000 ms
+
+Iteration   8: 746,703 ms/op
+                 ·gc.alloc.rate:      1652,982 MB/sec
+                 ·gc.alloc.rate.norm: 1294411533,333 B/op
+                 ·gc.count:           8,000 counts
+                 ·gc.time:            196,000 ms
+
+Iteration   9: 879,366 ms/op
+                 ·gc.alloc.rate:      1615,626 MB/sec
+                 ·gc.alloc.rate.norm: 1489914929,600 B/op
+                 ·gc.count:           7,000 counts
+                 ·gc.time:            190,000 ms
+
+Iteration  10: 622,047 ms/op
+                 ·gc.alloc.rate:      1635,207 MB/sec
+                 ·gc.alloc.rate.norm: 1066730045,714 B/op
+                 ·gc.count:           7,000 counts
+                 ·gc.time:            182,000 ms
+
+
+
+Result "org.codegenerator.SearchMethodsCollectionBenchmark.findMethods":
+  752,923 ±(99.9%) 435,389 ms/op [Average]
+  (min, avg, max) = (374,039, 752,923, 1211,887), stdev = 287,983
+  CI (99.9%): [317,535, 1188,312] (assumes normal distribution)
+
+Secondary result "org.codegenerator.SearchMethodsCollectionBenchmark.findMethods:·gc.alloc.rate":
+  1672,185 ±(99.9%) 52,514 MB/sec [Average]
+  (min, avg, max) = (1615,626, 1672,185, 1715,857), stdev = 34,735
+  CI (99.9%): [1619,671, 1724,699] (assumes normal distribution)
+
+Secondary result "org.codegenerator.SearchMethodsCollectionBenchmark.findMethods:·gc.alloc.rate.norm":
+  1315801301,676 ±(99.9%) 743044314,650 B/op [Average]
+  (min, avg, max) = (662046064,000, 1315801301,676, 2097719108,000), stdev = 491477807,741
+  CI (99.9%): [572756987,026, 2058845616,326] (assumes normal distribution)
+
+Secondary result "org.codegenerator.SearchMethodsCollectionBenchmark.findMethods:·gc.count":
+  73,000 ±(99.9%) 0,001 counts [Sum]
+  (min, avg, max) = (7,000, 7,300, 8,000), stdev = 0,483
+  CI (99.9%): [73,000, 73,000] (assumes normal distribution)
+
+Secondary result "org.codegenerator.SearchMethodsCollectionBenchmark.findMethods:·gc.time":
+  1637,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (103,000, 163,700, 196,000), stdev = 36,512
+  CI (99.9%): [1637,000, 1637,000] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 1.8.0_412, OpenJDK 64-Bit Server VM, 25.412-b08
+# VM invoker: C:\Users\User\.jdks\corretto-1.8.0_412\jre\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\tmp\jmh -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 2 s each
+# Measurement: 10 iterations, 4 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.codegenerator.SearchMethodsCollectionBenchmark.findMethods
+# Parameters: (size = 7)
+
+# Run progress: 85,71% complete, ETA 00:00:52
+# Fork: 1 of 1
+# Warmup Iteration   1: 27462,244 ms/op
+# Warmup Iteration   2: 14209,150 ms/op
+# Warmup Iteration   3: 6368,000 ms/op
+# Warmup Iteration   4: 6150,823 ms/op
+# Warmup Iteration   5: 34189,350 ms/op
+Iteration   1: 26793,322 ms/op
+                 ·gc.alloc.rate:      1087,472 MB/sec
+                 ·gc.alloc.rate.norm: 30553022960,000 B/op
+                 ·gc.count:           34,000 counts
+                 ·gc.time:            9064,000 ms
+
+Iteration   2: 25722,164 ms/op
+                 ·gc.alloc.rate:      1056,928 MB/sec
+                 ·gc.alloc.rate.norm: 28507840408,000 B/op
+                 ·gc.count:           31,000 counts
+                 ·gc.time:            8942,000 ms
+
+Iteration   3: 18993,506 ms/op
+                 ·gc.alloc.rate:      1091,980 MB/sec
+                 ·gc.alloc.rate.norm: 21748628136,000 B/op
+                 ·gc.count:           23,000 counts
+                 ·gc.time:            6245,000 ms
+
+Iteration   4: 25245,694 ms/op
+                 ·gc.alloc.rate:      1113,587 MB/sec
+                 ·gc.alloc.rate.norm: 29479521176,000 B/op
+                 ·gc.count:           29,000 counts
+                 ·gc.time:            7773,000 ms
+
+Iteration   5: 20370,417 ms/op
+                 ·gc.alloc.rate:      1191,292 MB/sec
+                 ·gc.alloc.rate.norm: 25740422280,000 B/op
+                 ·gc.count:           27,000 counts
+                 ·gc.time:            5337,000 ms
+
+Iteration   6: 16130,239 ms/op
+                 ·gc.alloc.rate:      1210,088 MB/sec
+                 ·gc.alloc.rate.norm: 20467901792,000 B/op
+                 ·gc.count:           20,000 counts
+                 ·gc.time:            4022,000 ms
+
+Iteration   7: 41751,215 ms/op
+                 ·gc.alloc.rate:      900,609 MB/sec
+                 ·gc.alloc.rate.norm: 39643276616,000 B/op
+                 ·gc.count:           40,000 counts
+                 ·gc.time:            9475,000 ms
+
+Iteration   8: 32324,885 ms/op
+                 ·gc.alloc.rate:      1029,811 MB/sec
+                 ·gc.alloc.rate.norm: 34906279112,000 B/op
+                 ·gc.count:           35,000 counts
+                 ·gc.time:            11390,000 ms
+
+Iteration   9: 4896,272 ms/op
+                 ·gc.alloc.rate:      1433,992 MB/sec
+                 ·gc.alloc.rate.norm: 7363111416,000 B/op
+                 ·gc.count:           7,000 counts
+                 ·gc.time:            773,000 ms
+
+Iteration  10: 37390,617 ms/op
+                 ·gc.alloc.rate:      1004,501 MB/sec
+                 ·gc.alloc.rate.norm: 39383921560,000 B/op
+                 ·gc.count:           40,000 counts
+                 ·gc.time:            13801,000 ms
+
+
+
+Result "org.codegenerator.SearchMethodsCollectionBenchmark.findMethods":
+  24961,833 ±(99.9%) 16188,654 ms/op [Average]
+  (min, avg, max) = (4896,272, 24961,833, 41751,215), stdev = 10707,793
+  CI (99.9%): [8773,178, 41150,487] (assumes normal distribution)
+
+Secondary result "org.codegenerator.SearchMethodsCollectionBenchmark.findMethods:·gc.alloc.rate":
+  1112,026 ±(99.9%) 217,707 MB/sec [Average]
+  (min, avg, max) = (900,609, 1112,026, 1433,992), stdev = 143,999
+  CI (99.9%): [894,319, 1329,733] (assumes normal distribution)
+
+Secondary result "org.codegenerator.SearchMethodsCollectionBenchmark.findMethods:·gc.alloc.rate.norm":
+  27779392545,600 ±(99.9%) 14676470703,893 B/op [Average]
+  (min, avg, max) = (7363111416,000, 27779392545,600, 39643276616,000), stdev = 9707576660,910
+  CI (99.9%): [13102921841,707, 42455863249,493] (assumes normal distribution)
+
+Secondary result "org.codegenerator.SearchMethodsCollectionBenchmark.findMethods:·gc.count":
+  286,000 ±(99.9%) 0,001 counts [Sum]
+  (min, avg, max) = (7,000, 28,600, 40,000), stdev = 10,058
+  CI (99.9%): [286,000, 286,000] (assumes normal distribution)
+
+Secondary result "org.codegenerator.SearchMethodsCollectionBenchmark.findMethods:·gc.time":
+  76822,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (773,000, 7682,200, 13801,000), stdev = 3750,644
+  CI (99.9%): [76822,000, 76822,000] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:10:52
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                                         (size)  Mode  Cnt            Score             Error   Units
+SearchMethodsCollectionBenchmark.findMethods                           1  avgt   10           26,296 ±           4,340   ms/op
+SearchMethodsCollectionBenchmark.findMethods:·gc.alloc.rate            1  avgt   10          167,191 ±          26,981  MB/sec
+SearchMethodsCollectionBenchmark.findMethods:·gc.alloc.rate.norm       1  avgt   10      4562554,615 ±        2984,951    B/op
+SearchMethodsCollectionBenchmark.findMethods:·gc.count                 1  avgt   10           45,000                    counts
+SearchMethodsCollectionBenchmark.findMethods:·gc.time                  1  avgt   10          327,000                        ms
+SearchMethodsCollectionBenchmark.findMethods                           2  avgt   10           27,703 ±           8,082   ms/op
+SearchMethodsCollectionBenchmark.findMethods:·gc.alloc.rate            2  avgt   10          185,647 ±          64,188  MB/sec
+SearchMethodsCollectionBenchmark.findMethods:·gc.alloc.rate.norm       2  avgt   10      5183163,433 ±       42683,620    B/op
+SearchMethodsCollectionBenchmark.findMethods:·gc.count                 2  avgt   10           55,000                    counts
+SearchMethodsCollectionBenchmark.findMethods:·gc.time                  2  avgt   10          241,000                        ms
+SearchMethodsCollectionBenchmark.findMethods                           3  avgt   10           20,775 ±           0,943   ms/op
+SearchMethodsCollectionBenchmark.findMethods:·gc.alloc.rate            3  avgt   10          292,189 ±          16,545  MB/sec
+SearchMethodsCollectionBenchmark.findMethods:·gc.alloc.rate.norm       3  avgt   10      6362411,464 ±      305995,605    B/op
+SearchMethodsCollectionBenchmark.findMethods:·gc.count                 3  avgt   10          403,000                    counts
+SearchMethodsCollectionBenchmark.findMethods:·gc.time                  3  avgt   10          241,000                        ms
+SearchMethodsCollectionBenchmark.findMethods                           4  avgt   10           27,010 ±           9,522   ms/op
+SearchMethodsCollectionBenchmark.findMethods:·gc.alloc.rate            4  avgt   10          437,665 ±         132,282  MB/sec
+SearchMethodsCollectionBenchmark.findMethods:·gc.alloc.rate.norm       4  avgt   10     12152206,516 ±     3495591,325    B/op
+SearchMethodsCollectionBenchmark.findMethods:·gc.count                 4  avgt   10          455,000                    counts
+SearchMethodsCollectionBenchmark.findMethods:·gc.time                  4  avgt   10          331,000                        ms
+SearchMethodsCollectionBenchmark.findMethods                           5  avgt   10           60,342 ±          24,194   ms/op
+SearchMethodsCollectionBenchmark.findMethods:·gc.alloc.rate            5  avgt   10         1135,681 ±         301,606  MB/sec
+SearchMethodsCollectionBenchmark.findMethods:·gc.alloc.rate.norm       5  avgt   10     74152704,785 ±    45903703,336    B/op
+SearchMethodsCollectionBenchmark.findMethods:·gc.count                 5  avgt   10          160,000                    counts
+SearchMethodsCollectionBenchmark.findMethods:·gc.time                  5  avgt   10          287,000                        ms
+SearchMethodsCollectionBenchmark.findMethods                           6  avgt   10          752,923 ±         435,389   ms/op
+SearchMethodsCollectionBenchmark.findMethods:·gc.alloc.rate            6  avgt   10         1672,185 ±          52,514  MB/sec
+SearchMethodsCollectionBenchmark.findMethods:·gc.alloc.rate.norm       6  avgt   10   1315801301,676 ±   743044314,650    B/op
+SearchMethodsCollectionBenchmark.findMethods:·gc.count                 6  avgt   10           73,000                    counts
+SearchMethodsCollectionBenchmark.findMethods:·gc.time                  6  avgt   10         1637,000                        ms
+SearchMethodsCollectionBenchmark.findMethods                           7  avgt   10        24961,833 ±       16188,654   ms/op
+SearchMethodsCollectionBenchmark.findMethods:·gc.alloc.rate            7  avgt   10         1112,026 ±         217,707  MB/sec
+SearchMethodsCollectionBenchmark.findMethods:·gc.alloc.rate.norm       7  avgt   10  27779392545,600 ± 14676470703,893    B/op
+SearchMethodsCollectionBenchmark.findMethods:·gc.count                 7  avgt   10          286,000                    counts
+SearchMethodsCollectionBenchmark.findMethods:·gc.time                  7  avgt   10        76822,000                        ms
+
+Benchmark result is saved to C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\results\jmh\results.txt
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 11m 16s
+11 actionable tasks: 5 executed, 6 up-to-date
