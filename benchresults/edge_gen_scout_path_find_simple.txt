@@ -1,0 +1,2531 @@
+Path for java installation 'C:\Users\User\.jdks\corretto-17.0.10' (IntelliJ IDEA) does not contain a java executable
+> Task :codegenerator:checkKotlinGradlePluginConfigurationErrors
+> Task :common:compileJava UP-TO-DATE
+> Task :common:processResources NO-SOURCE
+> Task :common:classes UP-TO-DATE
+> Task :common:jar
+> Task :codegenerator:compileKotlin UP-TO-DATE
+> Task :codegenerator:compileJava UP-TO-DATE
+> Task :codegenerator:processResources NO-SOURCE
+> Task :codegenerator:classes UP-TO-DATE
+> Task :codegenerator:compileTestKotlin NO-SOURCE
+> Task :codegenerator:compileTestJava
+> Task :codegenerator:processTestResources
+> Task :codegenerator:testClasses
+> Task :codegenerator:compileJmhKotlin NO-SOURCE
+> Task :codegenerator:compileJmhJava NO-SOURCE
+> Task :codegenerator:processJmhResources NO-SOURCE
+> Task :codegenerator:jmhClasses UP-TO-DATE
+
+> Task :codegenerator:jmhRunBytecodeGenerator
+Processing 0 classes from C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\classes\java\jmh with "reflection" generator
+Writing out Java source to C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\jmh-generated-sources and resources to C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\jmh-generated-resources
+Processing 0 classes from C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\classes\kotlin\jmh with "reflection" generator
+Writing out Java source to C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\jmh-generated-sources and resources to C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\jmh-generated-resources
+Processing 85 classes from C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\classes\java\test with "reflection" generator
+Writing out Java source to C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\jmh-generated-sources and resources to C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\jmh-generated-resources
+Processing 0 classes from C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\classes\kotlin\test with "reflection" generator
+Writing out Java source to C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\jmh-generated-sources and resources to C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\jmh-generated-resources
+
+> Task :codegenerator:jmhCompileGeneratedClasses UP-TO-DATE
+> Task :codegenerator:jmhJar
+
+> Task :codegenerator:jmh
+# JMH version: 1.36
+# VM version: JDK 1.8.0_412, OpenJDK 64-Bit Server VM, 25.412-b08
+# VM invoker: C:\Users\User\.jdks\corretto-1.8.0_412\jre\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\tmp\jmh -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 10 iterations, 5 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.codegenerator.LazyGraphTraversalBenchmark.findMethods
+# Parameters: (size = 1, type = 1)
+
+# Run progress: 0,00% complete, ETA 00:35:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 0,003 ms/op
+# Warmup Iteration   2: 0,003 ms/op
+# Warmup Iteration   3: 0,003 ms/op
+# Warmup Iteration   4: 0,003 ms/op
+# Warmup Iteration   5: 0,002 ms/op
+# Warmup Iteration   6: 0,003 ms/op
+# Warmup Iteration   7: 0,003 ms/op
+# Warmup Iteration   8: 0,002 ms/op
+# Warmup Iteration   9: 0,003 ms/op
+# Warmup Iteration  10: 0,003 ms/op
+Iteration   1: 0,003 ms/op
+                 ·gc.alloc.rate:      4248,275 MB/sec
+                 ·gc.alloc.rate.norm: 11794,359 B/op
+                 ·gc.count:           64,000 counts
+                 ·gc.time:            38,000 ms
+
+Iteration   2: 0,003 ms/op
+                 ·gc.alloc.rate:      4339,430 MB/sec
+                 ·gc.alloc.rate.norm: 11794,307 B/op
+                 ·gc.count:           84,000 counts
+                 ·gc.time:            45,000 ms
+
+Iteration   3: 0,003 ms/op
+                 ·gc.alloc.rate:      4378,855 MB/sec
+                 ·gc.alloc.rate.norm: 11794,278 B/op
+                 ·gc.count:           86,000 counts
+                 ·gc.time:            46,000 ms
+
+Iteration   4: 0,003 ms/op
+                 ·gc.alloc.rate:      4247,048 MB/sec
+                 ·gc.alloc.rate.norm: 11794,353 B/op
+                 ·gc.count:           68,000 counts
+                 ·gc.time:            41,000 ms
+
+Iteration   5: 0,003 ms/op
+                 ·gc.alloc.rate:      4267,310 MB/sec
+                 ·gc.alloc.rate.norm: 11794,338 B/op
+                 ·gc.count:           69,000 counts
+                 ·gc.time:            40,000 ms
+
+Iteration   6: 0,003 ms/op
+                 ·gc.alloc.rate:      4273,625 MB/sec
+                 ·gc.alloc.rate.norm: 11794,419 B/op
+                 ·gc.count:           70,000 counts
+                 ·gc.time:            41,000 ms
+
+Iteration   7: 0,003 ms/op
+                 ·gc.alloc.rate:      4293,724 MB/sec
+                 ·gc.alloc.rate.norm: 11794,306 B/op
+                 ·gc.count:           84,000 counts
+                 ·gc.time:            49,000 ms
+
+Iteration   8: 0,003 ms/op
+                 ·gc.alloc.rate:      4322,829 MB/sec
+                 ·gc.alloc.rate.norm: 11794,291 B/op
+                 ·gc.count:           73,000 counts
+                 ·gc.time:            47,000 ms
+
+Iteration   9: 0,003 ms/op
+                 ·gc.alloc.rate:      4327,022 MB/sec
+                 ·gc.alloc.rate.norm: 11794,291 B/op
+                 ·gc.count:           81,000 counts
+                 ·gc.time:            48,000 ms
+
+Iteration  10: 0,003 ms/op
+                 ·gc.alloc.rate:      4329,540 MB/sec
+                 ·gc.alloc.rate.norm: 11794,291 B/op
+                 ·gc.count:           81,000 counts
+                 ·gc.time:            47,000 ms
+
+
+
+Result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods":
+  0,003 ±(99.9%) 0,001 ms/op [Average]
+  (min, avg, max) = (0,003, 0,003, 0,003), stdev = 0,001
+  CI (99.9%): [0,003, 0,003] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate":
+  4302,766 ±(99.9%) 65,907 MB/sec [Average]
+  (min, avg, max) = (4247,048, 4302,766, 4378,855), stdev = 43,593
+  CI (99.9%): [4236,859, 4368,673] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate.norm":
+  11794,323 ±(99.9%) 0,066 B/op [Average]
+  (min, avg, max) = (11794,278, 11794,323, 11794,419), stdev = 0,044
+  CI (99.9%): [11794,257, 11794,389] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.count":
+  760,000 ±(99.9%) 0,001 counts [Sum]
+  (min, avg, max) = (64,000, 76,000, 86,000), stdev = 8,028
+  CI (99.9%): [760,000, 760,000] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.time":
+  442,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (38,000, 44,200, 49,000), stdev = 3,853
+  CI (99.9%): [442,000, 442,000] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 1.8.0_412, OpenJDK 64-Bit Server VM, 25.412-b08
+# VM invoker: C:\Users\User\.jdks\corretto-1.8.0_412\jre\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\tmp\jmh -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 10 iterations, 5 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.codegenerator.LazyGraphTraversalBenchmark.findMethods
+# Parameters: (size = 1, type = 2)
+
+# Run progress: 4,76% complete, ETA 00:33:46
+# Fork: 1 of 1
+# Warmup Iteration   1: 0,003 ms/op
+# Warmup Iteration   2: 0,003 ms/op
+# Warmup Iteration   3: 0,003 ms/op
+# Warmup Iteration   4: 0,003 ms/op
+# Warmup Iteration   5: 0,003 ms/op
+# Warmup Iteration   6: 0,003 ms/op
+# Warmup Iteration   7: 0,003 ms/op
+# Warmup Iteration   8: 0,003 ms/op
+# Warmup Iteration   9: 0,003 ms/op
+# Warmup Iteration  10: 0,003 ms/op
+Iteration   1: 0,003 ms/op
+                 ·gc.alloc.rate:      3962,705 MB/sec
+                 ·gc.alloc.rate.norm: 11834,679 B/op
+                 ·gc.count:           78,000 counts
+                 ·gc.time:            47,000 ms
+
+Iteration   2: 0,003 ms/op
+                 ·gc.alloc.rate:      3935,269 MB/sec
+                 ·gc.alloc.rate.norm: 11834,690 B/op
+                 ·gc.count:           80,000 counts
+                 ·gc.time:            48,000 ms
+
+Iteration   3: 0,003 ms/op
+                 ·gc.alloc.rate:      3932,303 MB/sec
+                 ·gc.alloc.rate.norm: 11834,689 B/op
+                 ·gc.count:           75,000 counts
+                 ·gc.time:            46,000 ms
+
+Iteration   4: 0,003 ms/op
+                 ·gc.alloc.rate:      3921,109 MB/sec
+                 ·gc.alloc.rate.norm: 11834,706 B/op
+                 ·gc.count:           71,000 counts
+                 ·gc.time:            47,000 ms
+
+Iteration   5: 0,003 ms/op
+                 ·gc.alloc.rate:      3945,861 MB/sec
+                 ·gc.alloc.rate.norm: 11834,684 B/op
+                 ·gc.count:           77,000 counts
+                 ·gc.time:            48,000 ms
+
+Iteration   6: 0,003 ms/op
+                 ·gc.alloc.rate:      3942,890 MB/sec
+                 ·gc.alloc.rate.norm: 11834,732 B/op
+                 ·gc.count:           78,000 counts
+                 ·gc.time:            47,000 ms
+
+Iteration   7: 0,003 ms/op
+                 ·gc.alloc.rate:      3890,112 MB/sec
+                 ·gc.alloc.rate.norm: 11834,705 B/op
+                 ·gc.count:           87,000 counts
+                 ·gc.time:            49,000 ms
+
+Iteration   8: 0,003 ms/op
+                 ·gc.alloc.rate:      3866,060 MB/sec
+                 ·gc.alloc.rate.norm: 11834,716 B/op
+                 ·gc.count:           68,000 counts
+                 ·gc.time:            43,000 ms
+
+Iteration   9: 0,003 ms/op
+                 ·gc.alloc.rate:      3705,286 MB/sec
+                 ·gc.alloc.rate.norm: 11834,835 B/op
+                 ·gc.count:           76,000 counts
+                 ·gc.time:            46,000 ms
+
+Iteration  10: 0,003 ms/op
+                 ·gc.alloc.rate:      3859,525 MB/sec
+                 ·gc.alloc.rate.norm: 11834,725 B/op
+                 ·gc.count:           82,000 counts
+                 ·gc.time:            48,000 ms
+
+
+
+Result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods":
+  0,003 ±(99.9%) 0,001 ms/op [Average]
+  (min, avg, max) = (0,003, 0,003, 0,003), stdev = 0,001
+  CI (99.9%): [0,003, 0,003] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate":
+  3896,112 ±(99.9%) 114,096 MB/sec [Average]
+  (min, avg, max) = (3705,286, 3896,112, 3962,705), stdev = 75,467
+  CI (99.9%): [3782,016, 4010,208] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate.norm":
+  11834,716 ±(99.9%) 0,069 B/op [Average]
+  (min, avg, max) = (11834,679, 11834,716, 11834,835), stdev = 0,045
+  CI (99.9%): [11834,647, 11834,785] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.count":
+  772,000 ±(99.9%) 0,001 counts [Sum]
+  (min, avg, max) = (68,000, 77,200, 87,000), stdev = 5,350
+  CI (99.9%): [772,000, 772,000] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.time":
+  469,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (43,000, 46,900, 49,000), stdev = 1,663
+  CI (99.9%): [469,000, 469,000] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 1.8.0_412, OpenJDK 64-Bit Server VM, 25.412-b08
+# VM invoker: C:\Users\User\.jdks\corretto-1.8.0_412\jre\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\tmp\jmh -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 10 iterations, 5 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.codegenerator.LazyGraphTraversalBenchmark.findMethods
+# Parameters: (size = 1, type = 3)
+
+# Run progress: 9,52% complete, ETA 00:32:06
+# Fork: 1 of 1
+# Warmup Iteration   1: 0,003 ms/op
+# Warmup Iteration   2: 0,003 ms/op
+# Warmup Iteration   3: 0,003 ms/op
+# Warmup Iteration   4: 0,003 ms/op
+# Warmup Iteration   5: 0,003 ms/op
+# Warmup Iteration   6: 0,003 ms/op
+# Warmup Iteration   7: 0,003 ms/op
+# Warmup Iteration   8: 0,003 ms/op
+# Warmup Iteration   9: 0,003 ms/op
+# Warmup Iteration  10: 0,003 ms/op
+Iteration   1: 0,003 ms/op
+                 ·gc.alloc.rate:      3095,764 MB/sec
+                 ·gc.alloc.rate.norm: 9017,648 B/op
+                 ·gc.count:           36,000 counts
+                 ·gc.time:            40,000 ms
+
+Iteration   2: 0,003 ms/op
+                 ·gc.alloc.rate:      3031,832 MB/sec
+                 ·gc.alloc.rate.norm: 9018,211 B/op
+                 ·gc.count:           45,000 counts
+                 ·gc.time:            85,000 ms
+
+Iteration   3: 0,003 ms/op
+                 ·gc.alloc.rate:      3096,066 MB/sec
+                 ·gc.alloc.rate.norm: 9017,854 B/op
+                 ·gc.count:           51,000 counts
+                 ·gc.time:            40,000 ms
+
+Iteration   4: 0,003 ms/op
+                 ·gc.alloc.rate:      3045,402 MB/sec
+                 ·gc.alloc.rate.norm: 9018,357 B/op
+                 ·gc.count:           45,000 counts
+                 ·gc.time:            42,000 ms
+
+Iteration   5: 0,003 ms/op
+                 ·gc.alloc.rate:      3085,358 MB/sec
+                 ·gc.alloc.rate.norm: 9017,838 B/op
+                 ·gc.count:           41,000 counts
+                 ·gc.time:            39,000 ms
+
+Iteration   6: 0,003 ms/op
+                 ·gc.alloc.rate:      3086,505 MB/sec
+                 ·gc.alloc.rate.norm: 9017,763 B/op
+                 ·gc.count:           41,000 counts
+                 ·gc.time:            39,000 ms
+
+Iteration   7: 0,003 ms/op
+                 ·gc.alloc.rate:      3068,484 MB/sec
+                 ·gc.alloc.rate.norm: 9017,760 B/op
+                 ·gc.count:           35,000 counts
+                 ·gc.time:            41,000 ms
+
+Iteration   8: 0,003 ms/op
+                 ·gc.alloc.rate:      3060,083 MB/sec
+                 ·gc.alloc.rate.norm: 9017,902 B/op
+                 ·gc.count:           36,000 counts
+                 ·gc.time:            42,000 ms
+
+Iteration   9: 0,003 ms/op
+                 ·gc.alloc.rate:      3079,836 MB/sec
+                 ·gc.alloc.rate.norm: 9017,472 B/op
+                 ·gc.count:           53,000 counts
+                 ·gc.time:            63,000 ms
+
+Iteration  10: 0,003 ms/op
+                 ·gc.alloc.rate:      3089,877 MB/sec
+                 ·gc.alloc.rate.norm: 9017,482 B/op
+                 ·gc.count:           58,000 counts
+                 ·gc.time:            43,000 ms
+
+
+
+Result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods":
+  0,003 ±(99.9%) 0,001 ms/op [Average]
+  (min, avg, max) = (0,003, 0,003, 0,003), stdev = 0,001
+  CI (99.9%): [0,003, 0,003] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate":
+  3073,921 ±(99.9%) 33,246 MB/sec [Average]
+  (min, avg, max) = (3031,832, 3073,921, 3096,066), stdev = 21,990
+  CI (99.9%): [3040,675, 3107,167] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate.norm":
+  9017,829 ±(99.9%) 0,428 B/op [Average]
+  (min, avg, max) = (9017,472, 9017,829, 9018,357), stdev = 0,283
+  CI (99.9%): [9017,401, 9018,257] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.count":
+  441,000 ±(99.9%) 0,001 counts [Sum]
+  (min, avg, max) = (35,000, 44,100, 58,000), stdev = 7,852
+  CI (99.9%): [441,000, 441,000] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.time":
+  474,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (39,000, 47,400, 85,000), stdev = 15,005
+  CI (99.9%): [474,000, 474,000] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 1.8.0_412, OpenJDK 64-Bit Server VM, 25.412-b08
+# VM invoker: C:\Users\User\.jdks\corretto-1.8.0_412\jre\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\tmp\jmh -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 10 iterations, 5 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.codegenerator.LazyGraphTraversalBenchmark.findMethods
+# Parameters: (size = 2, type = 1)
+
+# Run progress: 14,29% complete, ETA 00:31:14
+# Fork: 1 of 1
+# Warmup Iteration   1: 0,016 ms/op
+# Warmup Iteration   2: 0,015 ms/op
+# Warmup Iteration   3: 0,015 ms/op
+# Warmup Iteration   4: 0,016 ms/op
+# Warmup Iteration   5: 0,016 ms/op
+# Warmup Iteration   6: 0,016 ms/op
+# Warmup Iteration   7: 0,016 ms/op
+# Warmup Iteration   8: 0,016 ms/op
+# Warmup Iteration   9: 0,016 ms/op
+# Warmup Iteration  10: 0,016 ms/op
+Iteration   1: 0,016 ms/op
+                 ·gc.alloc.rate:      3164,237 MB/sec
+                 ·gc.alloc.rate.norm: 52447,732 B/op
+                 ·gc.count:           82,000 counts
+                 ·gc.time:            47,000 ms
+
+Iteration   2: 0,016 ms/op
+                 ·gc.alloc.rate:      3160,229 MB/sec
+                 ·gc.alloc.rate.norm: 52447,743 B/op
+                 ·gc.count:           79,000 counts
+                 ·gc.time:            46,000 ms
+
+Iteration   3: 0,016 ms/op
+                 ·gc.alloc.rate:      3190,407 MB/sec
+                 ·gc.alloc.rate.norm: 52447,606 B/op
+                 ·gc.count:           82,000 counts
+                 ·gc.time:            48,000 ms
+
+Iteration   4: 0,016 ms/op
+                 ·gc.alloc.rate:      3187,995 MB/sec
+                 ·gc.alloc.rate.norm: 52447,611 B/op
+                 ·gc.count:           80,000 counts
+                 ·gc.time:            45,000 ms
+
+Iteration   5: 0,015 ms/op
+                 ·gc.alloc.rate:      3214,879 MB/sec
+                 ·gc.alloc.rate.norm: 52447,454 B/op
+                 ·gc.count:           78,000 counts
+                 ·gc.time:            47,000 ms
+
+Iteration   6: 0,016 ms/op
+                 ·gc.alloc.rate:      3179,821 MB/sec
+                 ·gc.alloc.rate.norm: 52448,157 B/op
+                 ·gc.count:           76,000 counts
+                 ·gc.time:            45,000 ms
+
+Iteration   7: 0,016 ms/op
+                 ·gc.alloc.rate:      3196,334 MB/sec
+                 ·gc.alloc.rate.norm: 52447,470 B/op
+                 ·gc.count:           77,000 counts
+                 ·gc.time:            49,000 ms
+
+Iteration   8: 0,016 ms/op
+                 ·gc.alloc.rate:      3197,126 MB/sec
+                 ·gc.alloc.rate.norm: 52447,455 B/op
+                 ·gc.count:           61,000 counts
+                 ·gc.time:            41,000 ms
+
+Iteration   9: 0,016 ms/op
+                 ·gc.alloc.rate:      3190,558 MB/sec
+                 ·gc.alloc.rate.norm: 52447,491 B/op
+                 ·gc.count:           75,000 counts
+                 ·gc.time:            46,000 ms
+
+Iteration  10: 0,016 ms/op
+                 ·gc.alloc.rate:      3212,464 MB/sec
+                 ·gc.alloc.rate.norm: 52447,373 B/op
+                 ·gc.count:           75,000 counts
+                 ·gc.time:            46,000 ms
+
+
+
+Result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods":
+  0,016 ±(99.9%) 0,001 ms/op [Average]
+  (min, avg, max) = (0,015, 0,016, 0,016), stdev = 0,001
+  CI (99.9%): [0,015, 0,016] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate":
+  3189,405 ±(99.9%) 26,994 MB/sec [Average]
+  (min, avg, max) = (3160,229, 3189,405, 3214,879), stdev = 17,855
+  CI (99.9%): [3162,411, 3216,398] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate.norm":
+  52447,609 ±(99.9%) 0,346 B/op [Average]
+  (min, avg, max) = (52447,373, 52447,609, 52448,157), stdev = 0,229
+  CI (99.9%): [52447,264, 52447,955] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.count":
+  765,000 ±(99.9%) 0,001 counts [Sum]
+  (min, avg, max) = (61,000, 76,500, 82,000), stdev = 6,023
+  CI (99.9%): [765,000, 765,000] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.time":
+  460,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (41,000, 46,000, 49,000), stdev = 2,160
+  CI (99.9%): [460,000, 460,000] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 1.8.0_412, OpenJDK 64-Bit Server VM, 25.412-b08
+# VM invoker: C:\Users\User\.jdks\corretto-1.8.0_412\jre\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\tmp\jmh -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 10 iterations, 5 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.codegenerator.LazyGraphTraversalBenchmark.findMethods
+# Parameters: (size = 2, type = 2)
+
+# Run progress: 19,05% complete, ETA 00:29:18
+# Fork: 1 of 1
+# Warmup Iteration   1: 0,009 ms/op
+# Warmup Iteration   2: 0,008 ms/op
+# Warmup Iteration   3: 0,008 ms/op
+# Warmup Iteration   4: 0,008 ms/op
+# Warmup Iteration   5: 0,008 ms/op
+# Warmup Iteration   6: 0,009 ms/op
+# Warmup Iteration   7: 0,008 ms/op
+# Warmup Iteration   8: 0,008 ms/op
+# Warmup Iteration   9: 0,009 ms/op
+# Warmup Iteration  10: 0,008 ms/op
+Iteration   1: 0,008 ms/op
+                 ·gc.alloc.rate:      3018,031 MB/sec
+                 ·gc.alloc.rate.norm: 26937,041 B/op
+                 ·gc.count:           84,000 counts
+                 ·gc.time:            49,000 ms
+
+Iteration   2: 0,008 ms/op
+                 ·gc.alloc.rate:      3033,094 MB/sec
+                 ·gc.alloc.rate.norm: 26936,983 B/op
+                 ·gc.count:           66,000 counts
+                 ·gc.time:            42,000 ms
+
+Iteration   3: 0,008 ms/op
+                 ·gc.alloc.rate:      3037,175 MB/sec
+                 ·gc.alloc.rate.norm: 26936,973 B/op
+                 ·gc.count:           81,000 counts
+                 ·gc.time:            46,000 ms
+
+Iteration   4: 0,008 ms/op
+                 ·gc.alloc.rate:      3047,934 MB/sec
+                 ·gc.alloc.rate.norm: 26936,953 B/op
+                 ·gc.count:           66,000 counts
+                 ·gc.time:            41,000 ms
+
+Iteration   5: 0,008 ms/op
+                 ·gc.alloc.rate:      3042,386 MB/sec
+                 ·gc.alloc.rate.norm: 26936,976 B/op
+                 ·gc.count:           65,000 counts
+                 ·gc.time:            41,000 ms
+
+Iteration   6: 0,008 ms/op
+                 ·gc.alloc.rate:      3040,542 MB/sec
+                 ·gc.alloc.rate.norm: 26937,075 B/op
+                 ·gc.count:           84,000 counts
+                 ·gc.time:            49,000 ms
+
+Iteration   7: 0,009 ms/op
+                 ·gc.alloc.rate:      2955,717 MB/sec
+                 ·gc.alloc.rate.norm: 26937,150 B/op
+                 ·gc.count:           84,000 counts
+                 ·gc.time:            49,000 ms
+
+Iteration   8: 0,008 ms/op
+                 ·gc.alloc.rate:      3046,011 MB/sec
+                 ·gc.alloc.rate.norm: 26936,889 B/op
+                 ·gc.count:           77,000 counts
+                 ·gc.time:            46,000 ms
+
+Iteration   9: 0,008 ms/op
+                 ·gc.alloc.rate:      3038,191 MB/sec
+                 ·gc.alloc.rate.norm: 26936,908 B/op
+                 ·gc.count:           79,000 counts
+                 ·gc.time:            47,000 ms
+
+Iteration  10: 0,008 ms/op
+                 ·gc.alloc.rate:      3040,132 MB/sec
+                 ·gc.alloc.rate.norm: 26936,895 B/op
+                 ·gc.count:           80,000 counts
+                 ·gc.time:            47,000 ms
+
+
+
+Result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods":
+  0,008 ±(99.9%) 0,001 ms/op [Average]
+  (min, avg, max) = (0,008, 0,008, 0,009), stdev = 0,001
+  CI (99.9%): [0,008, 0,009] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate":
+  3029,921 ±(99.9%) 41,357 MB/sec [Average]
+  (min, avg, max) = (2955,717, 3029,921, 3047,934), stdev = 27,355
+  CI (99.9%): [2988,565, 3071,278] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate.norm":
+  26936,984 ±(99.9%) 0,126 B/op [Average]
+  (min, avg, max) = (26936,889, 26936,984, 26937,150), stdev = 0,084
+  CI (99.9%): [26936,858, 26937,111] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.count":
+  766,000 ±(99.9%) 0,001 counts [Sum]
+  (min, avg, max) = (65,000, 76,600, 84,000), stdev = 7,891
+  CI (99.9%): [766,000, 766,000] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.time":
+  457,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (41,000, 45,700, 49,000), stdev = 3,234
+  CI (99.9%): [457,000, 457,000] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 1.8.0_412, OpenJDK 64-Bit Server VM, 25.412-b08
+# VM invoker: C:\Users\User\.jdks\corretto-1.8.0_412\jre\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\tmp\jmh -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 10 iterations, 5 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.codegenerator.LazyGraphTraversalBenchmark.findMethods
+# Parameters: (size = 2, type = 3)
+
+# Run progress: 23,81% complete, ETA 00:27:28
+# Fork: 1 of 1
+# Warmup Iteration   1: 0,009 ms/op
+# Warmup Iteration   2: 0,009 ms/op
+# Warmup Iteration   3: 0,009 ms/op
+# Warmup Iteration   4: 0,009 ms/op
+# Warmup Iteration   5: 0,009 ms/op
+# Warmup Iteration   6: 0,009 ms/op
+# Warmup Iteration   7: 0,009 ms/op
+# Warmup Iteration   8: 0,009 ms/op
+# Warmup Iteration   9: 0,009 ms/op
+# Warmup Iteration  10: 0,009 ms/op
+Iteration   1: 0,009 ms/op
+                 ·gc.alloc.rate:      2163,587 MB/sec
+                 ·gc.alloc.rate.norm: 22687,905 B/op
+                 ·gc.count:           34,000 counts
+                 ·gc.time:            70,000 ms
+
+Iteration   2: 0,009 ms/op
+                 ·gc.alloc.rate:      2180,319 MB/sec
+                 ·gc.alloc.rate.norm: 22686,782 B/op
+                 ·gc.count:           32,000 counts
+                 ·gc.time:            39,000 ms
+
+Iteration   3: 0,009 ms/op
+                 ·gc.alloc.rate:      2184,294 MB/sec
+                 ·gc.alloc.rate.norm: 22686,150 B/op
+                 ·gc.count:           30,000 counts
+                 ·gc.time:            38,000 ms
+
+Iteration   4: 0,009 ms/op
+                 ·gc.alloc.rate:      2133,665 MB/sec
+                 ·gc.alloc.rate.norm: 22690,487 B/op
+                 ·gc.count:           39,000 counts
+                 ·gc.time:            77,000 ms
+
+Iteration   5: 0,009 ms/op
+                 ·gc.alloc.rate:      2174,380 MB/sec
+                 ·gc.alloc.rate.norm: 22689,067 B/op
+                 ·gc.count:           37,000 counts
+                 ·gc.time:            44,000 ms
+
+Iteration   6: 0,009 ms/op
+                 ·gc.alloc.rate:      2143,552 MB/sec
+                 ·gc.alloc.rate.norm: 22692,415 B/op
+                 ·gc.count:           28,000 counts
+                 ·gc.time:            42,000 ms
+
+Iteration   7: 0,009 ms/op
+                 ·gc.alloc.rate:      2179,500 MB/sec
+                 ·gc.alloc.rate.norm: 22683,424 B/op
+                 ·gc.count:           26,000 counts
+                 ·gc.time:            44,000 ms
+
+Iteration   8: 0,009 ms/op
+                 ·gc.alloc.rate:      2141,151 MB/sec
+                 ·gc.alloc.rate.norm: 22686,562 B/op
+                 ·gc.count:           40,000 counts
+                 ·gc.time:            83,000 ms
+
+Iteration   9: 0,009 ms/op
+                 ·gc.alloc.rate:      2154,493 MB/sec
+                 ·gc.alloc.rate.norm: 22688,335 B/op
+                 ·gc.count:           38,000 counts
+                 ·gc.time:            46,000 ms
+
+Iteration  10: 0,009 ms/op
+                 ·gc.alloc.rate:      2175,016 MB/sec
+                 ·gc.alloc.rate.norm: 22686,506 B/op
+                 ·gc.count:           32,000 counts
+                 ·gc.time:            47,000 ms
+
+
+
+Result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods":
+  0,009 ±(99.9%) 0,001 ms/op [Average]
+  (min, avg, max) = (0,009, 0,009, 0,009), stdev = 0,001
+  CI (99.9%): [0,009, 0,009] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate":
+  2162,996 ±(99.9%) 28,006 MB/sec [Average]
+  (min, avg, max) = (2133,665, 2162,996, 2184,294), stdev = 18,524
+  CI (99.9%): [2134,990, 2191,002] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate.norm":
+  22687,763 ±(99.9%) 3,789 B/op [Average]
+  (min, avg, max) = (22683,424, 22687,763, 22692,415), stdev = 2,506
+  CI (99.9%): [22683,975, 22691,552] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.count":
+  336,000 ±(99.9%) 0,001 counts [Sum]
+  (min, avg, max) = (26,000, 33,600, 40,000), stdev = 4,812
+  CI (99.9%): [336,000, 336,000] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.time":
+  530,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (38,000, 53,000, 83,000), stdev = 16,846
+  CI (99.9%): [530,000, 530,000] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 1.8.0_412, OpenJDK 64-Bit Server VM, 25.412-b08
+# VM invoker: C:\Users\User\.jdks\corretto-1.8.0_412\jre\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\tmp\jmh -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 10 iterations, 5 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.codegenerator.LazyGraphTraversalBenchmark.findMethods
+# Parameters: (size = 3, type = 1)
+
+# Run progress: 28,57% complete, ETA 00:26:23
+# Fork: 1 of 1
+# Warmup Iteration   1: 0,099 ms/op
+# Warmup Iteration   2: 0,093 ms/op
+# Warmup Iteration   3: 0,093 ms/op
+# Warmup Iteration   4: 0,094 ms/op
+# Warmup Iteration   5: 0,092 ms/op
+# Warmup Iteration   6: 0,092 ms/op
+# Warmup Iteration   7: 0,094 ms/op
+# Warmup Iteration   8: 0,094 ms/op
+# Warmup Iteration   9: 0,093 ms/op
+# Warmup Iteration  10: 0,093 ms/op
+Iteration   1: 0,093 ms/op
+                 ·gc.alloc.rate:      2882,534 MB/sec
+                 ·gc.alloc.rate.norm: 283423,437 B/op
+                 ·gc.count:           86,000 counts
+                 ·gc.time:            49,000 ms
+
+Iteration   2: 0,094 ms/op
+                 ·gc.alloc.rate:      2855,633 MB/sec
+                 ·gc.alloc.rate.norm: 283424,484 B/op
+                 ·gc.count:           82,000 counts
+                 ·gc.time:            46,000 ms
+
+Iteration   3: 0,094 ms/op
+                 ·gc.alloc.rate:      2850,468 MB/sec
+                 ·gc.alloc.rate.norm: 283424,583 B/op
+                 ·gc.count:           86,000 counts
+                 ·gc.time:            48,000 ms
+
+Iteration   4: 0,094 ms/op
+                 ·gc.alloc.rate:      2862,191 MB/sec
+                 ·gc.alloc.rate.norm: 283424,262 B/op
+                 ·gc.count:           85,000 counts
+                 ·gc.time:            48,000 ms
+
+Iteration   5: 0,094 ms/op
+                 ·gc.alloc.rate:      2855,711 MB/sec
+                 ·gc.alloc.rate.norm: 283424,684 B/op
+                 ·gc.count:           87,000 counts
+                 ·gc.time:            47,000 ms
+
+Iteration   6: 0,094 ms/op
+                 ·gc.alloc.rate:      2861,878 MB/sec
+                 ·gc.alloc.rate.norm: 283427,302 B/op
+                 ·gc.count:           85,000 counts
+                 ·gc.time:            48,000 ms
+
+Iteration   7: 0,095 ms/op
+                 ·gc.alloc.rate:      2843,756 MB/sec
+                 ·gc.alloc.rate.norm: 283424,319 B/op
+                 ·gc.count:           86,000 counts
+                 ·gc.time:            47,000 ms
+
+Iteration   8: 0,095 ms/op
+                 ·gc.alloc.rate:      2836,476 MB/sec
+                 ·gc.alloc.rate.norm: 283424,348 B/op
+                 ·gc.count:           85,000 counts
+                 ·gc.time:            48,000 ms
+
+Iteration   9: 0,094 ms/op
+                 ·gc.alloc.rate:      2872,598 MB/sec
+                 ·gc.alloc.rate.norm: 283423,105 B/op
+                 ·gc.count:           84,000 counts
+                 ·gc.time:            48,000 ms
+
+Iteration  10: 0,094 ms/op
+                 ·gc.alloc.rate:      2863,991 MB/sec
+                 ·gc.alloc.rate.norm: 283423,239 B/op
+                 ·gc.count:           79,000 counts
+                 ·gc.time:            47,000 ms
+
+
+
+Result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods":
+  0,094 ±(99.9%) 0,001 ms/op [Average]
+  (min, avg, max) = (0,093, 0,094, 0,095), stdev = 0,001
+  CI (99.9%): [0,093, 0,095] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate":
+  2858,524 ±(99.9%) 20,249 MB/sec [Average]
+  (min, avg, max) = (2836,476, 2858,524, 2882,534), stdev = 13,394
+  CI (99.9%): [2838,274, 2878,773] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate.norm":
+  283424,376 ±(99.9%) 1,783 B/op [Average]
+  (min, avg, max) = (283423,105, 283424,376, 283427,302), stdev = 1,179
+  CI (99.9%): [283422,593, 283426,159] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.count":
+  845,000 ±(99.9%) 0,001 counts [Sum]
+  (min, avg, max) = (79,000, 84,500, 87,000), stdev = 2,369
+  CI (99.9%): [845,000, 845,000] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.time":
+  476,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (46,000, 47,600, 49,000), stdev = 0,843
+  CI (99.9%): [476,000, 476,000] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 1.8.0_412, OpenJDK 64-Bit Server VM, 25.412-b08
+# VM invoker: C:\Users\User\.jdks\corretto-1.8.0_412\jre\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\tmp\jmh -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 10 iterations, 5 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.codegenerator.LazyGraphTraversalBenchmark.findMethods
+# Parameters: (size = 3, type = 2)
+
+# Run progress: 33,33% complete, ETA 00:24:29
+# Fork: 1 of 1
+# Warmup Iteration   1: 0,029 ms/op
+# Warmup Iteration   2: 0,026 ms/op
+# Warmup Iteration   3: 0,027 ms/op
+# Warmup Iteration   4: 0,026 ms/op
+# Warmup Iteration   5: 0,027 ms/op
+# Warmup Iteration   6: 0,027 ms/op
+# Warmup Iteration   7: 0,026 ms/op
+# Warmup Iteration   8: 0,027 ms/op
+# Warmup Iteration   9: 0,026 ms/op
+# Warmup Iteration  10: 0,026 ms/op
+Iteration   1: 0,026 ms/op
+                 ·gc.alloc.rate:      2701,838 MB/sec
+                 ·gc.alloc.rate.norm: 74919,561 B/op
+                 ·gc.count:           79,000 counts
+                 ·gc.time:            47,000 ms
+
+Iteration   2: 0,026 ms/op
+                 ·gc.alloc.rate:      2692,709 MB/sec
+                 ·gc.alloc.rate.norm: 74919,758 B/op
+                 ·gc.count:           80,000 counts
+                 ·gc.time:            46,000 ms
+
+Iteration   3: 0,027 ms/op
+                 ·gc.alloc.rate:      2589,919 MB/sec
+                 ·gc.alloc.rate.norm: 74920,981 B/op
+                 ·gc.count:           81,000 counts
+                 ·gc.time:            47,000 ms
+
+Iteration   4: 0,026 ms/op
+                 ·gc.alloc.rate:      2693,842 MB/sec
+                 ·gc.alloc.rate.norm: 74919,636 B/op
+                 ·gc.count:           79,000 counts
+                 ·gc.time:            47,000 ms
+
+Iteration   5: 0,031 ms/op
+                 ·gc.alloc.rate:      2303,626 MB/sec
+                 ·gc.alloc.rate.norm: 74924,933 B/op
+                 ·gc.count:           78,000 counts
+                 ·gc.time:            47,000 ms
+
+Iteration   6: 0,027 ms/op
+                 ·gc.alloc.rate:      2623,067 MB/sec
+                 ·gc.alloc.rate.norm: 74920,802 B/op
+                 ·gc.count:           79,000 counts
+                 ·gc.time:            46,000 ms
+
+Iteration   7: 0,028 ms/op
+                 ·gc.alloc.rate:      2526,010 MB/sec
+                 ·gc.alloc.rate.norm: 74921,457 B/op
+                 ·gc.count:           78,000 counts
+                 ·gc.time:            47,000 ms
+
+Iteration   8: 0,027 ms/op
+                 ·gc.alloc.rate:      2615,756 MB/sec
+                 ·gc.alloc.rate.norm: 74920,313 B/op
+                 ·gc.count:           83,000 counts
+                 ·gc.time:            48,000 ms
+
+Iteration   9: 0,027 ms/op
+                 ·gc.alloc.rate:      2648,716 MB/sec
+                 ·gc.alloc.rate.norm: 74919,926 B/op
+                 ·gc.count:           80,000 counts
+                 ·gc.time:            46,000 ms
+
+Iteration  10: 0,027 ms/op
+                 ·gc.alloc.rate:      2587,378 MB/sec
+                 ·gc.alloc.rate.norm: 74920,640 B/op
+                 ·gc.count:           83,000 counts
+                 ·gc.time:            49,000 ms
+
+
+
+Result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods":
+  0,027 ±(99.9%) 0,002 ms/op [Average]
+  (min, avg, max) = (0,026, 0,027, 0,031), stdev = 0,001
+  CI (99.9%): [0,025, 0,029] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate":
+  2598,286 ±(99.9%) 177,796 MB/sec [Average]
+  (min, avg, max) = (2303,626, 2598,286, 2701,838), stdev = 117,601
+  CI (99.9%): [2420,491, 2776,082] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate.norm":
+  74920,801 ±(99.9%) 2,393 B/op [Average]
+  (min, avg, max) = (74919,561, 74920,801, 74924,933), stdev = 1,583
+  CI (99.9%): [74918,408, 74923,194] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.count":
+  800,000 ±(99.9%) 0,001 counts [Sum]
+  (min, avg, max) = (78,000, 80,000, 83,000), stdev = 1,826
+  CI (99.9%): [800,000, 800,000] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.time":
+  470,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (46,000, 47,000, 49,000), stdev = 0,943
+  CI (99.9%): [470,000, 470,000] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 1.8.0_412, OpenJDK 64-Bit Server VM, 25.412-b08
+# VM invoker: C:\Users\User\.jdks\corretto-1.8.0_412\jre\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\tmp\jmh -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 10 iterations, 5 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.codegenerator.LazyGraphTraversalBenchmark.findMethods
+# Parameters: (size = 3, type = 3)
+
+# Run progress: 38,10% complete, ETA 00:22:39
+# Fork: 1 of 1
+# Warmup Iteration   1: 0,038 ms/op
+# Warmup Iteration   2: 0,036 ms/op
+# Warmup Iteration   3: 0,035 ms/op
+# Warmup Iteration   4: 0,035 ms/op
+# Warmup Iteration   5: 0,035 ms/op
+# Warmup Iteration   6: 0,035 ms/op
+# Warmup Iteration   7: 0,035 ms/op
+# Warmup Iteration   8: 0,034 ms/op
+# Warmup Iteration   9: 0,035 ms/op
+# Warmup Iteration  10: 0,035 ms/op
+Iteration   1: 0,036 ms/op
+                 ·gc.alloc.rate:      1393,922 MB/sec
+                 ·gc.alloc.rate.norm: 69226,416 B/op
+                 ·gc.count:           8,000 counts
+                 ·gc.time:            42,000 ms
+
+Iteration   2: 0,034 ms/op
+                 ·gc.alloc.rate:      1471,016 MB/sec
+                 ·gc.alloc.rate.norm: 69120,789 B/op
+                 ·gc.count:           10,000 counts
+                 ·gc.time:            81,000 ms
+
+Iteration   3: 0,035 ms/op
+                 ·gc.alloc.rate:      1455,852 MB/sec
+                 ·gc.alloc.rate.norm: 69174,642 B/op
+                 ·gc.count:           8,000 counts
+                 ·gc.time:            35,000 ms
+
+Iteration   4: 0,034 ms/op
+                 ·gc.alloc.rate:      1457,400 MB/sec
+                 ·gc.alloc.rate.norm: 69140,338 B/op
+                 ·gc.count:           10,000 counts
+                 ·gc.time:            82,000 ms
+
+Iteration   5: 0,035 ms/op
+                 ·gc.alloc.rate:      1451,753 MB/sec
+                 ·gc.alloc.rate.norm: 69182,662 B/op
+                 ·gc.count:           8,000 counts
+                 ·gc.time:            34,000 ms
+
+Iteration   6: 0,036 ms/op
+                 ·gc.alloc.rate:      1376,015 MB/sec
+                 ·gc.alloc.rate.norm: 69273,127 B/op
+                 ·gc.count:           9,000 counts
+                 ·gc.time:            72,000 ms
+
+Iteration   7: 0,036 ms/op
+                 ·gc.alloc.rate:      1394,801 MB/sec
+                 ·gc.alloc.rate.norm: 69243,764 B/op
+                 ·gc.count:           9,000 counts
+                 ·gc.time:            38,000 ms
+
+Iteration   8: 0,035 ms/op
+                 ·gc.alloc.rate:      1430,515 MB/sec
+                 ·gc.alloc.rate.norm: 69143,025 B/op
+                 ·gc.count:           8,000 counts
+                 ·gc.time:            31,000 ms
+
+Iteration   9: 0,036 ms/op
+                 ·gc.alloc.rate:      1355,015 MB/sec
+                 ·gc.alloc.rate.norm: 69241,640 B/op
+                 ·gc.count:           10,000 counts
+                 ·gc.time:            81,000 ms
+
+Iteration  10: 0,034 ms/op
+                 ·gc.alloc.rate:      1404,401 MB/sec
+                 ·gc.alloc.rate.norm: 69126,784 B/op
+                 ·gc.count:           10,000 counts
+                 ·gc.time:            30,000 ms
+
+
+
+Result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods":
+  0,035 ±(99.9%) 0,001 ms/op [Average]
+  (min, avg, max) = (0,034, 0,035, 0,036), stdev = 0,001
+  CI (99.9%): [0,034, 0,036] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate":
+  1419,069 ±(99.9%) 59,868 MB/sec [Average]
+  (min, avg, max) = (1355,015, 1419,069, 1471,016), stdev = 39,599
+  CI (99.9%): [1359,201, 1478,937] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate.norm":
+  69187,319 ±(99.9%) 83,527 B/op [Average]
+  (min, avg, max) = (69120,789, 69187,319, 69273,127), stdev = 55,248
+  CI (99.9%): [69103,792, 69270,845] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.count":
+  90,000 ±(99.9%) 0,001 counts [Sum]
+  (min, avg, max) = (8,000, 9,000, 10,000), stdev = 0,943
+  CI (99.9%): [90,000, 90,000] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.time":
+  526,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (30,000, 52,600, 82,000), stdev = 23,124
+  CI (99.9%): [526,000, 526,000] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 1.8.0_412, OpenJDK 64-Bit Server VM, 25.412-b08
+# VM invoker: C:\Users\User\.jdks\corretto-1.8.0_412\jre\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\tmp\jmh -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 10 iterations, 5 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.codegenerator.LazyGraphTraversalBenchmark.findMethods
+# Parameters: (size = 4, type = 1)
+
+# Run progress: 42,86% complete, ETA 00:21:35
+# Fork: 1 of 1
+# Warmup Iteration   1: 0,981 ms/op
+# Warmup Iteration   2: 0,881 ms/op
+# Warmup Iteration   3: 0,874 ms/op
+# Warmup Iteration   4: 0,867 ms/op
+# Warmup Iteration   5: 0,880 ms/op
+# Warmup Iteration   6: 0,872 ms/op
+# Warmup Iteration   7: 0,874 ms/op
+# Warmup Iteration   8: 0,876 ms/op
+# Warmup Iteration   9: 0,894 ms/op
+# Warmup Iteration  10: 0,903 ms/op
+Iteration   1: 0,877 ms/op
+                 ·gc.alloc.rate:      2348,086 MB/sec
+                 ·gc.alloc.rate.norm: 2171987,215 B/op
+                 ·gc.count:           78,000 counts
+                 ·gc.time:            47,000 ms
+
+Iteration   2: 0,875 ms/op
+                 ·gc.alloc.rate:      2354,596 MB/sec
+                 ·gc.alloc.rate.norm: 2171986,935 B/op
+                 ·gc.count:           75,000 counts
+                 ·gc.time:            46,000 ms
+
+Iteration   3: 0,885 ms/op
+                 ·gc.alloc.rate:      2326,366 MB/sec
+                 ·gc.alloc.rate.norm: 2171996,923 B/op
+                 ·gc.count:           79,000 counts
+                 ·gc.time:            47,000 ms
+
+Iteration   4: 0,905 ms/op
+                 ·gc.alloc.rate:      2276,007 MB/sec
+                 ·gc.alloc.rate.norm: 2172021,438 B/op
+                 ·gc.count:           69,000 counts
+                 ·gc.time:            44,000 ms
+
+Iteration   5: 0,881 ms/op
+                 ·gc.alloc.rate:      2336,582 MB/sec
+                 ·gc.alloc.rate.norm: 2171992,000 B/op
+                 ·gc.count:           73,000 counts
+                 ·gc.time:            46,000 ms
+
+Iteration   6: 0,897 ms/op
+                 ·gc.alloc.rate:      2294,315 MB/sec
+                 ·gc.alloc.rate.norm: 2172043,509 B/op
+                 ·gc.count:           62,000 counts
+                 ·gc.time:            41,000 ms
+
+Iteration   7: 0,872 ms/op
+                 ·gc.alloc.rate:      2362,241 MB/sec
+                 ·gc.alloc.rate.norm: 2171972,954 B/op
+                 ·gc.count:           76,000 counts
+                 ·gc.time:            48,000 ms
+
+Iteration   8: 0,897 ms/op
+                 ·gc.alloc.rate:      2296,126 MB/sec
+                 ·gc.alloc.rate.norm: 2172004,908 B/op
+                 ·gc.count:           75,000 counts
+                 ·gc.time:            47,000 ms
+
+Iteration   9: 0,901 ms/op
+                 ·gc.alloc.rate:      2287,682 MB/sec
+                 ·gc.alloc.rate.norm: 2172006,823 B/op
+                 ·gc.count:           77,000 counts
+                 ·gc.time:            47,000 ms
+
+Iteration  10: 0,920 ms/op
+                 ·gc.alloc.rate:      2239,327 MB/sec
+                 ·gc.alloc.rate.norm: 2172030,979 B/op
+                 ·gc.count:           71,000 counts
+                 ·gc.time:            44,000 ms
+
+
+
+Result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods":
+  0,891 ±(99.9%) 0,023 ms/op [Average]
+  (min, avg, max) = (0,872, 0,891, 0,920), stdev = 0,015
+  CI (99.9%): [0,868, 0,914] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate":
+  2312,133 ±(99.9%) 60,019 MB/sec [Average]
+  (min, avg, max) = (2239,327, 2312,133, 2362,241), stdev = 39,699
+  CI (99.9%): [2252,113, 2372,152] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate.norm":
+  2172004,368 ±(99.9%) 33,166 B/op [Average]
+  (min, avg, max) = (2171972,954, 2172004,368, 2172043,509), stdev = 21,937
+  CI (99.9%): [2171971,202, 2172037,534] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.count":
+  735,000 ±(99.9%) 0,001 counts [Sum]
+  (min, avg, max) = (62,000, 73,500, 79,000), stdev = 5,083
+  CI (99.9%): [735,000, 735,000] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.time":
+  457,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (41,000, 45,700, 48,000), stdev = 2,111
+  CI (99.9%): [457,000, 457,000] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 1.8.0_412, OpenJDK 64-Bit Server VM, 25.412-b08
+# VM invoker: C:\Users\User\.jdks\corretto-1.8.0_412\jre\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\tmp\jmh -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 10 iterations, 5 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.codegenerator.LazyGraphTraversalBenchmark.findMethods
+# Parameters: (size = 4, type = 2)
+
+# Run progress: 47,62% complete, ETA 00:19:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 0,092 ms/op
+# Warmup Iteration   2: 0,085 ms/op
+# Warmup Iteration   3: 0,086 ms/op
+# Warmup Iteration   4: 0,085 ms/op
+# Warmup Iteration   5: 0,085 ms/op
+# Warmup Iteration   6: 0,085 ms/op
+# Warmup Iteration   7: 0,084 ms/op
+# Warmup Iteration   8: 0,085 ms/op
+# Warmup Iteration   9: 0,085 ms/op
+# Warmup Iteration  10: 0,086 ms/op
+Iteration   1: 0,086 ms/op
+                 ·gc.alloc.rate:      2172,770 MB/sec
+                 ·gc.alloc.rate.norm: 198250,924 B/op
+                 ·gc.count:           79,000 counts
+                 ·gc.time:            48,000 ms
+
+Iteration   2: 0,086 ms/op
+                 ·gc.alloc.rate:      2182,441 MB/sec
+                 ·gc.alloc.rate.norm: 198250,403 B/op
+                 ·gc.count:           65,000 counts
+                 ·gc.time:            42,000 ms
+
+Iteration   3: 0,085 ms/op
+                 ·gc.alloc.rate:      2214,311 MB/sec
+                 ·gc.alloc.rate.norm: 198248,643 B/op
+                 ·gc.count:           70,000 counts
+                 ·gc.time:            45,000 ms
+
+Iteration   4: 0,084 ms/op
+                 ·gc.alloc.rate:      2245,736 MB/sec
+                 ·gc.alloc.rate.norm: 198246,772 B/op
+                 ·gc.count:           73,000 counts
+                 ·gc.time:            46,000 ms
+
+Iteration   5: 0,084 ms/op
+                 ·gc.alloc.rate:      2224,522 MB/sec
+                 ·gc.alloc.rate.norm: 198248,037 B/op
+                 ·gc.count:           78,000 counts
+                 ·gc.time:            49,000 ms
+
+Iteration   6: 0,084 ms/op
+                 ·gc.alloc.rate:      2233,379 MB/sec
+                 ·gc.alloc.rate.norm: 198248,959 B/op
+                 ·gc.count:           77,000 counts
+                 ·gc.time:            47,000 ms
+
+Iteration   7: 0,091 ms/op
+                 ·gc.alloc.rate:      2071,584 MB/sec
+                 ·gc.alloc.rate.norm: 198255,556 B/op
+                 ·gc.count:           62,000 counts
+                 ·gc.time:            43,000 ms
+
+Iteration   8: 0,095 ms/op
+                 ·gc.alloc.rate:      1978,869 MB/sec
+                 ·gc.alloc.rate.norm: 198261,083 B/op
+                 ·gc.count:           71,000 counts
+                 ·gc.time:            47,000 ms
+
+Iteration   9: 0,096 ms/op
+                 ·gc.alloc.rate:      1946,164 MB/sec
+                 ·gc.alloc.rate.norm: 198262,596 B/op
+                 ·gc.count:           71,000 counts
+                 ·gc.time:            45,000 ms
+
+Iteration  10: 0,097 ms/op
+                 ·gc.alloc.rate:      1933,694 MB/sec
+                 ·gc.alloc.rate.norm: 198263,527 B/op
+                 ·gc.count:           69,000 counts
+                 ·gc.time:            47,000 ms
+
+
+
+Result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods":
+  0,089 ±(99.9%) 0,008 ms/op [Average]
+  (min, avg, max) = (0,084, 0,089, 0,097), stdev = 0,005
+  CI (99.9%): [0,081, 0,097] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate":
+  2120,347 ±(99.9%) 190,142 MB/sec [Average]
+  (min, avg, max) = (1933,694, 2120,347, 2245,736), stdev = 125,767
+  CI (99.9%): [1930,205, 2310,489] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate.norm":
+  198253,650 ±(99.9%) 9,828 B/op [Average]
+  (min, avg, max) = (198246,772, 198253,650, 198263,527), stdev = 6,501
+  CI (99.9%): [198243,822, 198263,478] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.count":
+  715,000 ±(99.9%) 0,001 counts [Sum]
+  (min, avg, max) = (62,000, 71,500, 79,000), stdev = 5,503
+  CI (99.9%): [715,000, 715,000] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.time":
+  459,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (42,000, 45,900, 49,000), stdev = 2,183
+  CI (99.9%): [459,000, 459,000] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 1.8.0_412, OpenJDK 64-Bit Server VM, 25.412-b08
+# VM invoker: C:\Users\User\.jdks\corretto-1.8.0_412\jre\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\tmp\jmh -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 10 iterations, 5 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.codegenerator.LazyGraphTraversalBenchmark.findMethods
+# Parameters: (size = 4, type = 3)
+
+# Run progress: 52,38% complete, ETA 00:17:47
+# Fork: 1 of 1
+# Warmup Iteration   1: 0,120 ms/op
+# Warmup Iteration   2: 0,113 ms/op
+# Warmup Iteration   3: 0,109 ms/op
+# Warmup Iteration   4: 0,105 ms/op
+# Warmup Iteration   5: 0,107 ms/op
+# Warmup Iteration   6: 0,107 ms/op
+# Warmup Iteration   7: 0,107 ms/op
+# Warmup Iteration   8: 0,107 ms/op
+# Warmup Iteration   9: 0,105 ms/op
+# Warmup Iteration  10: 0,106 ms/op
+Iteration   1: 0,106 ms/op
+                 ·gc.alloc.rate:      1172,232 MB/sec
+                 ·gc.alloc.rate.norm: 198767,239 B/op
+                 ·gc.count:           9,000 counts
+                 ·gc.time:            133,000 ms
+
+Iteration   2: 0,106 ms/op
+                 ·gc.alloc.rate:      1183,728 MB/sec
+                 ·gc.alloc.rate.norm: 198784,830 B/op
+                 ·gc.count:           8,000 counts
+                 ·gc.time:            67,000 ms
+
+Iteration   3: 0,106 ms/op
+                 ·gc.alloc.rate:      1169,659 MB/sec
+                 ·gc.alloc.rate.norm: 198768,025 B/op
+                 ·gc.count:           9,000 counts
+                 ·gc.time:            132,000 ms
+
+Iteration   4: 0,105 ms/op
+                 ·gc.alloc.rate:      1185,687 MB/sec
+                 ·gc.alloc.rate.norm: 198687,531 B/op
+                 ·gc.count:           8,000 counts
+                 ·gc.time:            67,000 ms
+
+Iteration   5: 0,107 ms/op
+                 ·gc.alloc.rate:      1163,298 MB/sec
+                 ·gc.alloc.rate.norm: 198894,904 B/op
+                 ·gc.count:           9,000 counts
+                 ·gc.time:            129,000 ms
+
+Iteration   6: 0,107 ms/op
+                 ·gc.alloc.rate:      1169,954 MB/sec
+                 ·gc.alloc.rate.norm: 198924,388 B/op
+                 ·gc.count:           8,000 counts
+                 ·gc.time:            77,000 ms
+
+Iteration   7: 0,105 ms/op
+                 ·gc.alloc.rate:      1178,237 MB/sec
+                 ·gc.alloc.rate.norm: 198606,805 B/op
+                 ·gc.count:           9,000 counts
+                 ·gc.time:            126,000 ms
+
+Iteration   8: 0,108 ms/op
+                 ·gc.alloc.rate:      1154,043 MB/sec
+                 ·gc.alloc.rate.norm: 198927,941 B/op
+                 ·gc.count:           8,000 counts
+                 ·gc.time:            59,000 ms
+
+Iteration   9: 0,106 ms/op
+                 ·gc.alloc.rate:      1140,174 MB/sec
+                 ·gc.alloc.rate.norm: 198715,498 B/op
+                 ·gc.count:           8,000 counts
+                 ·gc.time:            64,000 ms
+
+Iteration  10: 0,105 ms/op
+                 ·gc.alloc.rate:      1199,677 MB/sec
+                 ·gc.alloc.rate.norm: 198567,846 B/op
+                 ·gc.count:           9,000 counts
+                 ·gc.time:            144,000 ms
+
+
+
+Result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods":
+  0,106 ±(99.9%) 0,002 ms/op [Average]
+  (min, avg, max) = (0,105, 0,106, 0,108), stdev = 0,001
+  CI (99.9%): [0,105, 0,108] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate":
+  1171,669 ±(99.9%) 25,446 MB/sec [Average]
+  (min, avg, max) = (1140,174, 1171,669, 1199,677), stdev = 16,831
+  CI (99.9%): [1146,223, 1197,115] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate.norm":
+  198764,501 ±(99.9%) 189,624 B/op [Average]
+  (min, avg, max) = (198567,846, 198764,501, 198927,941), stdev = 125,425
+  CI (99.9%): [198574,877, 198954,125] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.count":
+  85,000 ±(99.9%) 0,001 counts [Sum]
+  (min, avg, max) = (8,000, 8,500, 9,000), stdev = 0,527
+  CI (99.9%): [85,000, 85,000] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.time":
+  998,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (59,000, 99,800, 144,000), stdev = 35,355
+  CI (99.9%): [998,000, 998,000] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 1.8.0_412, OpenJDK 64-Bit Server VM, 25.412-b08
+# VM invoker: C:\Users\User\.jdks\corretto-1.8.0_412\jre\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\tmp\jmh -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 10 iterations, 5 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.codegenerator.LazyGraphTraversalBenchmark.findMethods
+# Parameters: (size = 5, type = 1)
+
+# Run progress: 57,14% complete, ETA 00:16:38
+# Fork: 1 of 1
+# Warmup Iteration   1: 12,182 ms/op
+# Warmup Iteration   2: 10,496 ms/op
+# Warmup Iteration   3: 10,728 ms/op
+# Warmup Iteration   4: 10,935 ms/op
+# Warmup Iteration   5: 10,911 ms/op
+# Warmup Iteration   6: 10,604 ms/op
+# Warmup Iteration   7: 10,775 ms/op
+# Warmup Iteration   8: 10,930 ms/op
+# Warmup Iteration   9: 11,124 ms/op
+# Warmup Iteration  10: 10,507 ms/op
+Iteration   1: 10,697 ms/op
+                 ·gc.alloc.rate:      2034,242 MB/sec
+                 ·gc.alloc.rate.norm: 22952521,979 B/op
+                 ·gc.count:           51,000 counts
+                 ·gc.time:            49,000 ms
+
+Iteration   2: 10,944 ms/op
+                 ·gc.alloc.rate:      1987,714 MB/sec
+                 ·gc.alloc.rate.norm: 22952838,620 B/op
+                 ·gc.count:           49,000 counts
+                 ·gc.time:            48,000 ms
+
+Iteration   3: 11,150 ms/op
+                 ·gc.alloc.rate:      1952,304 MB/sec
+                 ·gc.alloc.rate.norm: 22953106,044 B/op
+                 ·gc.count:           52,000 counts
+                 ·gc.time:            49,000 ms
+
+Iteration   4: 10,847 ms/op
+                 ·gc.alloc.rate:      2001,737 MB/sec
+                 ·gc.alloc.rate.norm: 22952732,848 B/op
+                 ·gc.count:           55,000 counts
+                 ·gc.time:            49,000 ms
+
+Iteration   5: 10,936 ms/op
+                 ·gc.alloc.rate:      1989,045 MB/sec
+                 ·gc.alloc.rate.norm: 22952837,764 B/op
+                 ·gc.count:           53,000 counts
+                 ·gc.time:            48,000 ms
+
+Iteration   6: 10,803 ms/op
+                 ·gc.alloc.rate:      2013,360 MB/sec
+                 ·gc.alloc.rate.norm: 22953040,225 B/op
+                 ·gc.count:           51,000 counts
+                 ·gc.time:            49,000 ms
+
+Iteration   7: 10,705 ms/op
+                 ·gc.alloc.rate:      2033,320 MB/sec
+                 ·gc.alloc.rate.norm: 22952378,303 B/op
+                 ·gc.count:           50,000 counts
+                 ·gc.time:            46,000 ms
+
+Iteration   8: 10,383 ms/op
+                 ·gc.alloc.rate:      2096,152 MB/sec
+                 ·gc.alloc.rate.norm: 22951968,364 B/op
+                 ·gc.count:           52,000 counts
+                 ·gc.time:            51,000 ms
+
+Iteration   9: 10,441 ms/op
+                 ·gc.alloc.rate:      2086,181 MB/sec
+                 ·gc.alloc.rate.norm: 22952067,867 B/op
+                 ·gc.count:           45,000 counts
+                 ·gc.time:            47,000 ms
+
+Iteration  10: 10,628 ms/op
+                 ·gc.alloc.rate:      2049,426 MB/sec
+                 ·gc.alloc.rate.norm: 22952310,237 B/op
+                 ·gc.count:           53,000 counts
+                 ·gc.time:            50,000 ms
+
+
+
+Result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods":
+  10,753 ±(99.9%) 0,354 ms/op [Average]
+  (min, avg, max) = (10,383, 10,753, 11,150), stdev = 0,234
+  CI (99.9%): [10,399, 11,108] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate":
+  2024,348 ±(99.9%) 67,981 MB/sec [Average]
+  (min, avg, max) = (1952,304, 2024,348, 2096,152), stdev = 44,965
+  CI (99.9%): [1956,367, 2092,329] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate.norm":
+  22952580,225 ±(99.9%) 595,947 B/op [Average]
+  (min, avg, max) = (22951968,364, 22952580,225, 22953106,044), stdev = 394,182
+  CI (99.9%): [22951984,278, 22953176,173] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.count":
+  511,000 ±(99.9%) 0,001 counts [Sum]
+  (min, avg, max) = (45,000, 51,100, 55,000), stdev = 2,726
+  CI (99.9%): [511,000, 511,000] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.time":
+  486,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (46,000, 48,600, 51,000), stdev = 1,430
+  CI (99.9%): [486,000, 486,000] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 1.8.0_412, OpenJDK 64-Bit Server VM, 25.412-b08
+# VM invoker: C:\Users\User\.jdks\corretto-1.8.0_412\jre\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\tmp\jmh -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 10 iterations, 5 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.codegenerator.LazyGraphTraversalBenchmark.findMethods
+# Parameters: (size = 5, type = 2)
+
+# Run progress: 61,90% complete, ETA 00:14:41
+# Fork: 1 of 1
+# Warmup Iteration   1: 0,228 ms/op
+# Warmup Iteration   2: 0,213 ms/op
+# Warmup Iteration   3: 0,227 ms/op
+# Warmup Iteration   4: 0,225 ms/op
+# Warmup Iteration   5: 0,222 ms/op
+# Warmup Iteration   6: 0,226 ms/op
+# Warmup Iteration   7: 0,228 ms/op
+# Warmup Iteration   8: 0,227 ms/op
+# Warmup Iteration   9: 0,228 ms/op
+# Warmup Iteration  10: 0,231 ms/op
+Iteration   1: 0,234 ms/op
+                 ·gc.alloc.rate:      1972,985 MB/sec
+                 ·gc.alloc.rate.norm: 488053,418 B/op
+                 ·gc.count:           68,000 counts
+                 ·gc.time:            47,000 ms
+
+Iteration   2: 0,228 ms/op
+                 ·gc.alloc.rate:      2016,157 MB/sec
+                 ·gc.alloc.rate.norm: 488044,612 B/op
+                 ·gc.count:           70,000 counts
+                 ·gc.time:            45,000 ms
+
+Iteration   3: 0,232 ms/op
+                 ·gc.alloc.rate:      1988,594 MB/sec
+                 ·gc.alloc.rate.norm: 488050,296 B/op
+                 ·gc.count:           70,000 counts
+                 ·gc.time:            48,000 ms
+
+Iteration   4: 0,232 ms/op
+                 ·gc.alloc.rate:      1996,274 MB/sec
+                 ·gc.alloc.rate.norm: 488048,713 B/op
+                 ·gc.count:           70,000 counts
+                 ·gc.time:            46,000 ms
+
+Iteration   5: 0,232 ms/op
+                 ·gc.alloc.rate:      1980,653 MB/sec
+                 ·gc.alloc.rate.norm: 488049,367 B/op
+                 ·gc.count:           72,000 counts
+                 ·gc.time:            50,000 ms
+
+Iteration   6: 0,224 ms/op
+                 ·gc.alloc.rate:      2066,244 MB/sec
+                 ·gc.alloc.rate.norm: 488041,427 B/op
+                 ·gc.count:           72,000 counts
+                 ·gc.time:            46,000 ms
+
+Iteration   7: 0,224 ms/op
+                 ·gc.alloc.rate:      2064,333 MB/sec
+                 ·gc.alloc.rate.norm: 488036,291 B/op
+                 ·gc.count:           72,000 counts
+                 ·gc.time:            48,000 ms
+
+Iteration   8: 0,224 ms/op
+                 ·gc.alloc.rate:      2060,590 MB/sec
+                 ·gc.alloc.rate.norm: 488036,541 B/op
+                 ·gc.count:           70,000 counts
+                 ·gc.time:            47,000 ms
+
+Iteration   9: 0,224 ms/op
+                 ·gc.alloc.rate:      2066,212 MB/sec
+                 ·gc.alloc.rate.norm: 488034,827 B/op
+                 ·gc.count:           74,000 counts
+                 ·gc.time:            47,000 ms
+
+Iteration  10: 0,225 ms/op
+                 ·gc.alloc.rate:      2051,727 MB/sec
+                 ·gc.alloc.rate.norm: 488037,295 B/op
+                 ·gc.count:           72,000 counts
+                 ·gc.time:            47,000 ms
+
+
+
+Result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods":
+  0,228 ±(99.9%) 0,006 ms/op [Average]
+  (min, avg, max) = (0,224, 0,228, 0,234), stdev = 0,004
+  CI (99.9%): [0,222, 0,234] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate":
+  2026,377 ±(99.9%) 59,221 MB/sec [Average]
+  (min, avg, max) = (1972,985, 2026,377, 2066,244), stdev = 39,171
+  CI (99.9%): [1967,156, 2085,598] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate.norm":
+  488043,279 ±(99.9%) 10,393 B/op [Average]
+  (min, avg, max) = (488034,827, 488043,279, 488053,418), stdev = 6,874
+  CI (99.9%): [488032,885, 488053,672] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.count":
+  710,000 ±(99.9%) 0,001 counts [Sum]
+  (min, avg, max) = (68,000, 71,000, 74,000), stdev = 1,700
+  CI (99.9%): [710,000, 710,000] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.time":
+  471,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (45,000, 47,100, 50,000), stdev = 1,370
+  CI (99.9%): [471,000, 471,000] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 1.8.0_412, OpenJDK 64-Bit Server VM, 25.412-b08
+# VM invoker: C:\Users\User\.jdks\corretto-1.8.0_412\jre\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\tmp\jmh -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 10 iterations, 5 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.codegenerator.LazyGraphTraversalBenchmark.findMethods
+# Parameters: (size = 5, type = 3)
+
+# Run progress: 66,67% complete, ETA 00:12:47
+# Fork: 1 of 1
+# Warmup Iteration   1: 0,386 ms/op
+# Warmup Iteration   2: 0,371 ms/op
+# Warmup Iteration   3: 0,372 ms/op
+# Warmup Iteration   4: 0,376 ms/op
+# Warmup Iteration   5: 0,396 ms/op
+# Warmup Iteration   6: 0,368 ms/op
+# Warmup Iteration   7: 0,368 ms/op
+# Warmup Iteration   8: 0,366 ms/op
+# Warmup Iteration   9: 0,368 ms/op
+# Warmup Iteration  10: 0,366 ms/op
+Iteration   1: 0,368 ms/op
+                 ·gc.alloc.rate:      882,830 MB/sec
+                 ·gc.alloc.rate.norm: 592490,230 B/op
+                 ·gc.count:           7,000 counts
+                 ·gc.time:            116,000 ms
+
+Iteration   2: 0,367 ms/op
+                 ·gc.alloc.rate:      893,352 MB/sec
+                 ·gc.alloc.rate.norm: 592584,461 B/op
+                 ·gc.count:           9,000 counts
+                 ·gc.time:            174,000 ms
+
+Iteration   3: 0,365 ms/op
+                 ·gc.alloc.rate:      884,522 MB/sec
+                 ·gc.alloc.rate.norm: 592219,686 B/op
+                 ·gc.count:           7,000 counts
+                 ·gc.time:            68,000 ms
+
+Iteration   4: 0,367 ms/op
+                 ·gc.alloc.rate:      892,402 MB/sec
+                 ·gc.alloc.rate.norm: 592514,147 B/op
+                 ·gc.count:           8,000 counts
+                 ·gc.time:            190,000 ms
+
+Iteration   5: 0,368 ms/op
+                 ·gc.alloc.rate:      881,494 MB/sec
+                 ·gc.alloc.rate.norm: 592623,239 B/op
+                 ·gc.count:           7,000 counts
+                 ·gc.time:            87,000 ms
+
+Iteration   6: 0,367 ms/op
+                 ·gc.alloc.rate:      890,589 MB/sec
+                 ·gc.alloc.rate.norm: 592460,028 B/op
+                 ·gc.count:           8,000 counts
+                 ·gc.time:            183,000 ms
+
+Iteration   7: 0,367 ms/op
+                 ·gc.alloc.rate:      877,568 MB/sec
+                 ·gc.alloc.rate.norm: 592159,122 B/op
+                 ·gc.count:           7,000 counts
+                 ·gc.time:            48,000 ms
+
+Iteration   8: 0,368 ms/op
+                 ·gc.alloc.rate:      885,532 MB/sec
+                 ·gc.alloc.rate.norm: 592364,684 B/op
+                 ·gc.count:           8,000 counts
+                 ·gc.time:            179,000 ms
+
+Iteration   9: 0,367 ms/op
+                 ·gc.alloc.rate:      877,879 MB/sec
+                 ·gc.alloc.rate.norm: 591987,714 B/op
+                 ·gc.count:           7,000 counts
+                 ·gc.time:            46,000 ms
+
+Iteration  10: 0,366 ms/op
+                 ·gc.alloc.rate:      887,995 MB/sec
+                 ·gc.alloc.rate.norm: 591976,302 B/op
+                 ·gc.count:           8,000 counts
+                 ·gc.time:            164,000 ms
+
+
+
+Result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods":
+  0,367 ±(99.9%) 0,001 ms/op [Average]
+  (min, avg, max) = (0,365, 0,367, 0,368), stdev = 0,001
+  CI (99.9%): [0,366, 0,368] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate":
+  885,416 ±(99.9%) 8,530 MB/sec [Average]
+  (min, avg, max) = (877,568, 885,416, 893,352), stdev = 5,642
+  CI (99.9%): [876,887, 893,946] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate.norm":
+  592337,961 ±(99.9%) 360,398 B/op [Average]
+  (min, avg, max) = (591976,302, 592337,961, 592623,239), stdev = 238,381
+  CI (99.9%): [591977,563, 592698,360] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.count":
+  76,000 ±(99.9%) 0,001 counts [Sum]
+  (min, avg, max) = (7,000, 7,600, 9,000), stdev = 0,699
+  CI (99.9%): [76,000, 76,000] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.time":
+  1255,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (46,000, 125,500, 190,000), stdev = 59,037
+  CI (99.9%): [1255,000, 1255,000] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 1.8.0_412, OpenJDK 64-Bit Server VM, 25.412-b08
+# VM invoker: C:\Users\User\.jdks\corretto-1.8.0_412\jre\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\tmp\jmh -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 10 iterations, 5 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.codegenerator.LazyGraphTraversalBenchmark.findMethods
+# Parameters: (size = 6, type = 1)
+
+# Run progress: 71,43% complete, ETA 00:11:25
+# Fork: 1 of 1
+# Warmup Iteration   1: 173,934 ms/op
+# Warmup Iteration   2: 144,293 ms/op
+# Warmup Iteration   3: 146,818 ms/op
+# Warmup Iteration   4: 147,131 ms/op
+# Warmup Iteration   5: 148,583 ms/op
+# Warmup Iteration   6: 145,858 ms/op
+# Warmup Iteration   7: 144,062 ms/op
+# Warmup Iteration   8: 142,967 ms/op
+# Warmup Iteration   9: 144,347 ms/op
+# Warmup Iteration  10: 143,324 ms/op
+Iteration   1: 145,276 ms/op
+                 ·gc.alloc.rate:      2015,038 MB/sec
+                 ·gc.alloc.rate.norm: 308957939,429 B/op
+                 ·gc.count:           9,000 counts
+                 ·gc.time:            63,000 ms
+
+Iteration   2: 143,665 ms/op
+                 ·gc.alloc.rate:      2038,701 MB/sec
+                 ·gc.alloc.rate.norm: 308957705,371 B/op
+                 ·gc.count:           9,000 counts
+                 ·gc.time:            58,000 ms
+
+Iteration   3: 145,297 ms/op
+                 ·gc.alloc.rate:      2016,778 MB/sec
+                 ·gc.alloc.rate.norm: 308957892,571 B/op
+                 ·gc.count:           9,000 counts
+                 ·gc.time:            52,000 ms
+
+Iteration   4: 144,842 ms/op
+                 ·gc.alloc.rate:      2022,687 MB/sec
+                 ·gc.alloc.rate.norm: 308957590,857 B/op
+                 ·gc.count:           9,000 counts
+                 ·gc.time:            70,000 ms
+
+Iteration   5: 143,602 ms/op
+                 ·gc.alloc.rate:      2040,839 MB/sec
+                 ·gc.alloc.rate.norm: 308957362,971 B/op
+                 ·gc.count:           9,000 counts
+                 ·gc.time:            59,000 ms
+
+Iteration   6: 151,390 ms/op
+                 ·gc.alloc.rate:      1933,704 MB/sec
+                 ·gc.alloc.rate.norm: 308968583,765 B/op
+                 ·gc.count:           9,000 counts
+                 ·gc.time:            56,000 ms
+
+Iteration   7: 150,185 ms/op
+                 ·gc.alloc.rate:      1950,041 MB/sec
+                 ·gc.alloc.rate.norm: 308962173,176 B/op
+                 ·gc.count:           9,000 counts
+                 ·gc.time:            63,000 ms
+
+Iteration   8: 152,725 ms/op
+                 ·gc.alloc.rate:      1917,105 MB/sec
+                 ·gc.alloc.rate.norm: 308968033,212 B/op
+                 ·gc.count:           9,000 counts
+                 ·gc.time:            67,000 ms
+
+Iteration   9: 146,348 ms/op
+                 ·gc.alloc.rate:      2001,395 MB/sec
+                 ·gc.alloc.rate.norm: 308955867,200 B/op
+                 ·gc.count:           9,000 counts
+                 ·gc.time:            57,000 ms
+
+Iteration  10: 151,402 ms/op
+                 ·gc.alloc.rate:      1935,413 MB/sec
+                 ·gc.alloc.rate.norm: 308962167,294 B/op
+                 ·gc.count:           9,000 counts
+                 ·gc.time:            53,000 ms
+
+
+
+Result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods":
+  147,473 ±(99.9%) 5,356 ms/op [Average]
+  (min, avg, max) = (143,602, 147,473, 152,725), stdev = 3,543
+  CI (99.9%): [142,117, 152,829] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate":
+  1987,170 ±(99.9%) 72,116 MB/sec [Average]
+  (min, avg, max) = (1917,105, 1987,170, 2040,839), stdev = 47,700
+  CI (99.9%): [1915,054, 2059,286] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate.norm":
+  308960531,585 ±(99.9%) 6920,829 B/op [Average]
+  (min, avg, max) = (308955867,200, 308960531,585, 308968583,765), stdev = 4577,700
+  CI (99.9%): [308953610,756, 308967452,413] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.count":
+  90,000 ±(99.9%) 0,001 counts [Sum]
+  (min, avg, max) = (9,000, 9,000, 9,000), stdev = 0,001
+  CI (99.9%): [90,000, 90,000] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.time":
+  598,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (52,000, 59,800, 70,000), stdev = 5,865
+  CI (99.9%): [598,000, 598,000] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 1.8.0_412, OpenJDK 64-Bit Server VM, 25.412-b08
+# VM invoker: C:\Users\User\.jdks\corretto-1.8.0_412\jre\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\tmp\jmh -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 10 iterations, 5 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.codegenerator.LazyGraphTraversalBenchmark.findMethods
+# Parameters: (size = 6, type = 2)
+
+# Run progress: 76,19% complete, ETA 00:09:27
+# Fork: 1 of 1
+# Warmup Iteration   1: 0,647 ms/op
+# Warmup Iteration   2: 0,606 ms/op
+# Warmup Iteration   3: 0,618 ms/op
+# Warmup Iteration   4: 0,625 ms/op
+# Warmup Iteration   5: 0,621 ms/op
+# Warmup Iteration   6: 0,618 ms/op
+# Warmup Iteration   7: 0,609 ms/op
+# Warmup Iteration   8: 0,612 ms/op
+# Warmup Iteration   9: 0,619 ms/op
+# Warmup Iteration  10: 0,610 ms/op
+Iteration   1: 0,616 ms/op
+                 ·gc.alloc.rate:      1753,512 MB/sec
+                 ·gc.alloc.rate.norm: 1140056,286 B/op
+                 ·gc.count:           79,000 counts
+                 ·gc.time:            48,000 ms
+
+Iteration   2: 0,610 ms/op
+                 ·gc.alloc.rate:      1770,518 MB/sec
+                 ·gc.alloc.rate.norm: 1140046,283 B/op
+                 ·gc.count:           77,000 counts
+                 ·gc.time:            47,000 ms
+
+Iteration   3: 0,632 ms/op
+                 ·gc.alloc.rate:      1703,210 MB/sec
+                 ·gc.alloc.rate.norm: 1140080,646 B/op
+                 ·gc.count:           73,000 counts
+                 ·gc.time:            47,000 ms
+
+Iteration   4: 0,608 ms/op
+                 ·gc.alloc.rate:      1773,305 MB/sec
+                 ·gc.alloc.rate.norm: 1140043,912 B/op
+                 ·gc.count:           74,000 counts
+                 ·gc.time:            48,000 ms
+
+Iteration   5: 0,610 ms/op
+                 ·gc.alloc.rate:      1770,036 MB/sec
+                 ·gc.alloc.rate.norm: 1140047,910 B/op
+                 ·gc.count:           74,000 counts
+                 ·gc.time:            47,000 ms
+
+Iteration   6: 0,606 ms/op
+                 ·gc.alloc.rate:      1782,158 MB/sec
+                 ·gc.alloc.rate.norm: 1140048,303 B/op
+                 ·gc.count:           74,000 counts
+                 ·gc.time:            48,000 ms
+
+Iteration   7: 0,603 ms/op
+                 ·gc.alloc.rate:      1791,534 MB/sec
+                 ·gc.alloc.rate.norm: 1140025,597 B/op
+                 ·gc.count:           72,000 counts
+                 ·gc.time:            46,000 ms
+
+Iteration   8: 0,618 ms/op
+                 ·gc.alloc.rate:      1746,360 MB/sec
+                 ·gc.alloc.rate.norm: 1140049,598 B/op
+                 ·gc.count:           74,000 counts
+                 ·gc.time:            48,000 ms
+
+Iteration   9: 0,613 ms/op
+                 ·gc.alloc.rate:      1751,130 MB/sec
+                 ·gc.alloc.rate.norm: 1140042,369 B/op
+                 ·gc.count:           72,000 counts
+                 ·gc.time:            47,000 ms
+
+Iteration  10: 0,612 ms/op
+                 ·gc.alloc.rate:      1762,813 MB/sec
+                 ·gc.alloc.rate.norm: 1140040,603 B/op
+                 ·gc.count:           71,000 counts
+                 ·gc.time:            47,000 ms
+
+
+
+Result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods":
+  0,613 ±(99.9%) 0,013 ms/op [Average]
+  (min, avg, max) = (0,603, 0,613, 0,632), stdev = 0,008
+  CI (99.9%): [0,600, 0,625] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate":
+  1760,458 ±(99.9%) 37,072 MB/sec [Average]
+  (min, avg, max) = (1703,210, 1760,458, 1791,534), stdev = 24,521
+  CI (99.9%): [1723,385, 1797,530] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate.norm":
+  1140048,151 ±(99.9%) 21,051 B/op [Average]
+  (min, avg, max) = (1140025,597, 1140048,151, 1140080,646), stdev = 13,924
+  CI (99.9%): [1140027,100, 1140069,201] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.count":
+  740,000 ±(99.9%) 0,001 counts [Sum]
+  (min, avg, max) = (71,000, 74,000, 79,000), stdev = 2,404
+  CI (99.9%): [740,000, 740,000] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.time":
+  473,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (46,000, 47,300, 48,000), stdev = 0,675
+  CI (99.9%): [473,000, 473,000] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 1.8.0_412, OpenJDK 64-Bit Server VM, 25.412-b08
+# VM invoker: C:\Users\User\.jdks\corretto-1.8.0_412\jre\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\tmp\jmh -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 10 iterations, 5 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.codegenerator.LazyGraphTraversalBenchmark.findMethods
+# Parameters: (size = 6, type = 3)
+
+# Run progress: 80,95% complete, ETA 00:07:31
+# Fork: 1 of 1
+# Warmup Iteration   1: 1,126 ms/op
+# Warmup Iteration   2: 1,107 ms/op
+# Warmup Iteration   3: 1,094 ms/op
+# Warmup Iteration   4: 1,082 ms/op
+# Warmup Iteration   5: 1,074 ms/op
+# Warmup Iteration   6: 1,090 ms/op
+# Warmup Iteration   7: 1,086 ms/op
+# Warmup Iteration   8: 1,087 ms/op
+# Warmup Iteration   9: 1,082 ms/op
+# Warmup Iteration  10: 1,082 ms/op
+Iteration   1: 1,076 ms/op
+                 ·gc.alloc.rate:      683,067 MB/sec
+                 ·gc.alloc.rate.norm: 1598890,611 B/op
+                 ·gc.count:           8,000 counts
+                 ·gc.time:            235,000 ms
+
+Iteration   2: 1,075 ms/op
+                 ·gc.alloc.rate:      680,414 MB/sec
+                 ·gc.alloc.rate.norm: 1599168,364 B/op
+                 ·gc.count:           8,000 counts
+                 ·gc.time:            233,000 ms
+
+Iteration   3: 1,101 ms/op
+                 ·gc.alloc.rate:      665,954 MB/sec
+                 ·gc.alloc.rate.norm: 1606202,984 B/op
+                 ·gc.count:           7,000 counts
+                 ·gc.time:            215,000 ms
+
+Iteration   4: 1,064 ms/op
+                 ·gc.alloc.rate:      671,840 MB/sec
+                 ·gc.alloc.rate.norm: 1595972,795 B/op
+                 ·gc.count:           8,000 counts
+                 ·gc.time:            211,000 ms
+
+Iteration   5: 1,070 ms/op
+                 ·gc.alloc.rate:      663,644 MB/sec
+                 ·gc.alloc.rate.norm: 1597770,421 B/op
+                 ·gc.count:           7,000 counts
+                 ·gc.time:            116,000 ms
+
+Iteration   6: 1,074 ms/op
+                 ·gc.alloc.rate:      686,710 MB/sec
+                 ·gc.alloc.rate.norm: 1598373,976 B/op
+                 ·gc.count:           8,000 counts
+                 ·gc.time:            233,000 ms
+
+Iteration   7: 1,060 ms/op
+                 ·gc.alloc.rate:      674,905 MB/sec
+                 ·gc.alloc.rate.norm: 1593164,761 B/op
+                 ·gc.count:           6,000 counts
+                 ·gc.time:            61,000 ms
+
+Iteration   8: 1,068 ms/op
+                 ·gc.alloc.rate:      683,057 MB/sec
+                 ·gc.alloc.rate.norm: 1595105,355 B/op
+                 ·gc.count:           9,000 counts
+                 ·gc.time:            254,000 ms
+
+Iteration   9: 1,053 ms/op
+                 ·gc.alloc.rate:      671,847 MB/sec
+                 ·gc.alloc.rate.norm: 1591258,951 B/op
+                 ·gc.count:           7,000 counts
+                 ·gc.time:            57,000 ms
+
+Iteration  10: 1,058 ms/op
+                 ·gc.alloc.rate:      691,537 MB/sec
+                 ·gc.alloc.rate.norm: 1592551,573 B/op
+                 ·gc.count:           8,000 counts
+                 ·gc.time:            242,000 ms
+
+
+
+Result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods":
+  1,070 ±(99.9%) 0,020 ms/op [Average]
+  (min, avg, max) = (1,053, 1,070, 1,101), stdev = 0,013
+  CI (99.9%): [1,050, 1,090] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate":
+  677,297 ±(99.9%) 13,781 MB/sec [Average]
+  (min, avg, max) = (663,644, 677,297, 691,537), stdev = 9,116
+  CI (99.9%): [663,516, 691,079] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate.norm":
+  1596845,979 ±(99.9%) 6518,685 B/op [Average]
+  (min, avg, max) = (1591258,951, 1596845,979, 1606202,984), stdev = 4311,706
+  CI (99.9%): [1590327,294, 1603364,664] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.count":
+  76,000 ±(99.9%) 0,001 counts [Sum]
+  (min, avg, max) = (6,000, 7,600, 9,000), stdev = 0,843
+  CI (99.9%): [76,000, 76,000] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.time":
+  1857,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (57,000, 185,700, 254,000), stdev = 76,891
+  CI (99.9%): [1857,000, 1857,000] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 1.8.0_412, OpenJDK 64-Bit Server VM, 25.412-b08
+# VM invoker: C:\Users\User\.jdks\corretto-1.8.0_412\jre\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\tmp\jmh -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 10 iterations, 5 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.codegenerator.LazyGraphTraversalBenchmark.findMethods
+# Parameters: (size = 7, type = 1)
+
+# Run progress: 85,71% complete, ETA 00:05:54
+# Fork: 1 of 1
+# Warmup Iteration   1: 3655,393 ms/op
+# Warmup Iteration   2: 3308,821 ms/op
+# Warmup Iteration   3: 3359,295 ms/op
+# Warmup Iteration   4: 3185,818 ms/op
+# Warmup Iteration   5: 2985,425 ms/op
+# Warmup Iteration   6: 2962,873 ms/op
+# Warmup Iteration   7: 2948,958 ms/op
+# Warmup Iteration   8: 3271,739 ms/op
+# Warmup Iteration   9: 2988,516 ms/op
+# Warmup Iteration  10: 3151,017 ms/op
+Iteration   1: 3194,801 ms/op
+                 ·gc.alloc.rate:      1488,240 MB/sec
+                 ·gc.alloc.rate.norm: 5011421188,000 B/op
+                 ·gc.count:           10,000 counts
+                 ·gc.time:            1375,000 ms
+
+Iteration   2: 2936,114 ms/op
+                 ·gc.alloc.rate:      1617,902 MB/sec
+                 ·gc.alloc.rate.norm: 5011422540,000 B/op
+                 ·gc.count:           9,000 counts
+                 ·gc.time:            863,000 ms
+
+Iteration   3: 3050,352 ms/op
+                 ·gc.alloc.rate:      1557,251 MB/sec
+                 ·gc.alloc.rate.norm: 5011419716,000 B/op
+                 ·gc.count:           10,000 counts
+                 ·gc.time:            1010,000 ms
+
+Iteration   4: 3210,897 ms/op
+                 ·gc.alloc.rate:      1481,648 MB/sec
+                 ·gc.alloc.rate.norm: 5011419580,000 B/op
+                 ·gc.count:           10,000 counts
+                 ·gc.time:            1402,000 ms
+
+Iteration   5: 3055,234 ms/op
+                 ·gc.alloc.rate:      1556,353 MB/sec
+                 ·gc.alloc.rate.norm: 5011416268,000 B/op
+                 ·gc.count:           10,000 counts
+                 ·gc.time:            1132,000 ms
+
+Iteration   6: 3046,718 ms/op
+                 ·gc.alloc.rate:      1560,035 MB/sec
+                 ·gc.alloc.rate.norm: 5011497648,000 B/op
+                 ·gc.count:           10,000 counts
+                 ·gc.time:            1027,000 ms
+
+Iteration   7: 3026,914 ms/op
+                 ·gc.alloc.rate:      1569,133 MB/sec
+                 ·gc.alloc.rate.norm: 5011386540,000 B/op
+                 ·gc.count:           10,000 counts
+                 ·gc.time:            1011,000 ms
+
+Iteration   8: 2964,899 ms/op
+                 ·gc.alloc.rate:      1603,436 MB/sec
+                 ·gc.alloc.rate.norm: 5011382652,000 B/op
+                 ·gc.count:           10,000 counts
+                 ·gc.time:            850,000 ms
+
+Iteration   9: 2936,043 ms/op
+                 ·gc.alloc.rate:      1619,832 MB/sec
+                 ·gc.alloc.rate.norm: 5011391784,000 B/op
+                 ·gc.count:           9,000 counts
+                 ·gc.time:            827,000 ms
+
+Iteration  10: 2887,975 ms/op
+                 ·gc.alloc.rate:      1646,165 MB/sec
+                 ·gc.alloc.rate.norm: 5011388620,000 B/op
+                 ·gc.count:           10,000 counts
+                 ·gc.time:            885,000 ms
+
+
+
+Result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods":
+  3030,995 ±(99.9%) 161,945 ms/op [Average]
+  (min, avg, max) = (2887,975, 3030,995, 3210,897), stdev = 107,116
+  CI (99.9%): [2869,050, 3192,939] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate":
+  1570,000 ±(99.9%) 82,249 MB/sec [Average]
+  (min, avg, max) = (1481,648, 1570,000, 1646,165), stdev = 54,402
+  CI (99.9%): [1487,751, 1652,248] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate.norm":
+  5011414653,600 ±(99.9%) 50547,991 B/op [Average]
+  (min, avg, max) = (5011382652,000, 5011414653,600, 5011497648,000), stdev = 33434,366
+  CI (99.9%): [5011364105,609, 5011465201,591] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.count":
+  98,000 ±(99.9%) 0,001 counts [Sum]
+  (min, avg, max) = (9,000, 9,800, 10,000), stdev = 0,422
+  CI (99.9%): [98,000, 98,000] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.time":
+  10382,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (827,000, 1038,200, 1402,000), stdev = 208,282
+  CI (99.9%): [10382,000, 10382,000] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 1.8.0_412, OpenJDK 64-Bit Server VM, 25.412-b08
+# VM invoker: C:\Users\User\.jdks\corretto-1.8.0_412\jre\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\tmp\jmh -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 10 iterations, 5 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.codegenerator.LazyGraphTraversalBenchmark.findMethods
+# Parameters: (size = 7, type = 2)
+
+# Run progress: 90,48% complete, ETA 00:03:57
+# Fork: 1 of 1
+# Warmup Iteration   1: 1,696 ms/op
+# Warmup Iteration   2: 1,576 ms/op
+# Warmup Iteration   3: 1,577 ms/op
+# Warmup Iteration   4: 1,593 ms/op
+# Warmup Iteration   5: 1,575 ms/op
+# Warmup Iteration   6: 1,578 ms/op
+# Warmup Iteration   7: 1,579 ms/op
+# Warmup Iteration   8: 1,587 ms/op
+# Warmup Iteration   9: 1,580 ms/op
+# Warmup Iteration  10: 1,575 ms/op
+Iteration   1: 1,586 ms/op
+                 ·gc.alloc.rate:      1537,818 MB/sec
+                 ·gc.alloc.rate.norm: 2579452,023 B/op
+                 ·gc.count:           66,000 counts
+                 ·gc.time:            47,000 ms
+
+Iteration   2: 1,574 ms/op
+                 ·gc.alloc.rate:      1549,309 MB/sec
+                 ·gc.alloc.rate.norm: 2579439,693 B/op
+                 ·gc.count:           65,000 counts
+                 ·gc.time:            46,000 ms
+
+Iteration   3: 1,576 ms/op
+                 ·gc.alloc.rate:      1547,358 MB/sec
+                 ·gc.alloc.rate.norm: 2579435,366 B/op
+                 ·gc.count:           59,000 counts
+                 ·gc.time:            45,000 ms
+
+Iteration   4: 1,582 ms/op
+                 ·gc.alloc.rate:      1543,102 MB/sec
+                 ·gc.alloc.rate.norm: 2579447,985 B/op
+                 ·gc.count:           64,000 counts
+                 ·gc.time:            46,000 ms
+
+Iteration   5: 1,571 ms/op
+                 ·gc.alloc.rate:      1554,077 MB/sec
+                 ·gc.alloc.rate.norm: 2579427,892 B/op
+                 ·gc.count:           63,000 counts
+                 ·gc.time:            46,000 ms
+
+Iteration   6: 1,569 ms/op
+                 ·gc.alloc.rate:      1555,297 MB/sec
+                 ·gc.alloc.rate.norm: 2579447,069 B/op
+                 ·gc.count:           52,000 counts
+                 ·gc.time:            43,000 ms
+
+Iteration   7: 1,578 ms/op
+                 ·gc.alloc.rate:      1546,753 MB/sec
+                 ·gc.alloc.rate.norm: 2579419,380 B/op
+                 ·gc.count:           64,000 counts
+                 ·gc.time:            46,000 ms
+
+Iteration   8: 1,571 ms/op
+                 ·gc.alloc.rate:      1553,182 MB/sec
+                 ·gc.alloc.rate.norm: 2579410,756 B/op
+                 ·gc.count:           62,000 counts
+                 ·gc.time:            46,000 ms
+
+Iteration   9: 1,569 ms/op
+                 ·gc.alloc.rate:      1556,848 MB/sec
+                 ·gc.alloc.rate.norm: 2579407,260 B/op
+                 ·gc.count:           60,000 counts
+                 ·gc.time:            46,000 ms
+
+Iteration  10: 1,582 ms/op
+                 ·gc.alloc.rate:      1543,831 MB/sec
+                 ·gc.alloc.rate.norm: 2579432,715 B/op
+                 ·gc.count:           67,000 counts
+                 ·gc.time:            47,000 ms
+
+
+
+Result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods":
+  1,576 ±(99.9%) 0,009 ms/op [Average]
+  (min, avg, max) = (1,569, 1,576, 1,586), stdev = 0,006
+  CI (99.9%): [1,567, 1,585] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate":
+  1548,757 ±(99.9%) 9,269 MB/sec [Average]
+  (min, avg, max) = (1537,818, 1548,757, 1556,848), stdev = 6,131
+  CI (99.9%): [1539,488, 1558,027] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate.norm":
+  2579432,014 ±(99.9%) 23,605 B/op [Average]
+  (min, avg, max) = (2579407,260, 2579432,014, 2579452,023), stdev = 15,613
+  CI (99.9%): [2579408,409, 2579455,619] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.count":
+  622,000 ±(99.9%) 0,001 counts [Sum]
+  (min, avg, max) = (52,000, 62,200, 67,000), stdev = 4,367
+  CI (99.9%): [622,000, 622,000] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.time":
+  458,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (43,000, 45,800, 47,000), stdev = 1,135
+  CI (99.9%): [458,000, 458,000] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 1.8.0_412, OpenJDK 64-Bit Server VM, 25.412-b08
+# VM invoker: C:\Users\User\.jdks\corretto-1.8.0_412\jre\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8 -Djava.io.tmpdir=C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\tmp\jmh -Duser.country=RU -Duser.language=ru -Duser.variant
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 10 iterations, 5 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.codegenerator.LazyGraphTraversalBenchmark.findMethods
+# Parameters: (size = 7, type = 3)
+
+# Run progress: 95,24% complete, ETA 00:01:57
+# Fork: 1 of 1
+# Warmup Iteration   1: 3,114 ms/op
+# Warmup Iteration   2: 3,112 ms/op
+# Warmup Iteration   3: 3,824 ms/op
+# Warmup Iteration   4: 3,101 ms/op
+# Warmup Iteration   5: 3,127 ms/op
+# Warmup Iteration   6: 3,088 ms/op
+# Warmup Iteration   7: 3,120 ms/op
+# Warmup Iteration   8: 3,104 ms/op
+# Warmup Iteration   9: 3,033 ms/op
+# Warmup Iteration  10: 3,050 ms/op
+Iteration   1: 3,071 ms/op
+                 ·gc.alloc.rate:      499,829 MB/sec
+                 ·gc.alloc.rate.norm: 4329653,359 B/op
+                 ·gc.count:           7,000 counts
+                 ·gc.time:            148,000 ms
+
+Iteration   2: 3,039 ms/op
+                 ·gc.alloc.rate:      482,824 MB/sec
+                 ·gc.alloc.rate.norm: 4320408,534 B/op
+                 ·gc.count:           8,000 counts
+                 ·gc.time:            369,000 ms
+
+Iteration   3: 3,043 ms/op
+                 ·gc.alloc.rate:      514,726 MB/sec
+                 ·gc.alloc.rate.norm: 4319983,044 B/op
+                 ·gc.count:           7,000 counts
+                 ·gc.time:            185,000 ms
+
+Iteration   4: 3,035 ms/op
+                 ·gc.alloc.rate:      518,800 MB/sec
+                 ·gc.alloc.rate.norm: 4317096,339 B/op
+                 ·gc.count:           8,000 counts
+                 ·gc.time:            352,000 ms
+
+Iteration   5: 2,988 ms/op
+                 ·gc.alloc.rate:      522,763 MB/sec
+                 ·gc.alloc.rate.norm: 4301608,138 B/op
+                 ·gc.count:           7,000 counts
+                 ·gc.time:            113,000 ms
+
+Iteration   6: 3,038 ms/op
+                 ·gc.alloc.rate:      523,094 MB/sec
+                 ·gc.alloc.rate.norm: 4318618,550 B/op
+                 ·gc.count:           8,000 counts
+                 ·gc.time:            337,000 ms
+
+Iteration   7: 3,009 ms/op
+                 ·gc.alloc.rate:      518,871 MB/sec
+                 ·gc.alloc.rate.norm: 4300303,011 B/op
+                 ·gc.count:           7,000 counts
+                 ·gc.time:            105,000 ms
+
+Iteration   8: 3,029 ms/op
+                 ·gc.alloc.rate:      517,991 MB/sec
+                 ·gc.alloc.rate.norm: 4307991,033 B/op
+                 ·gc.count:           8,000 counts
+                 ·gc.time:            346,000 ms
+
+Iteration   9: 2,940 ms/op
+                 ·gc.alloc.rate:      524,800 MB/sec
+                 ·gc.alloc.rate.norm: 4278276,193 B/op
+                 ·gc.count:           7,000 counts
+                 ·gc.time:            105,000 ms
+
+Iteration  10: 2,981 ms/op
+                 ·gc.alloc.rate:      524,881 MB/sec
+                 ·gc.alloc.rate.norm: 4292131,505 B/op
+                 ·gc.count:           8,000 counts
+                 ·gc.time:            342,000 ms
+
+
+
+Result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods":
+  3,017 ±(99.9%) 0,058 ms/op [Average]
+  (min, avg, max) = (2,940, 3,017, 3,071), stdev = 0,038
+  CI (99.9%): [2,960, 3,075] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate":
+  514,858 ±(99.9%) 20,304 MB/sec [Average]
+  (min, avg, max) = (482,824, 514,858, 524,881), stdev = 13,430
+  CI (99.9%): [494,554, 535,161] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate.norm":
+  4308606,971 ±(99.9%) 23603,377 B/op [Average]
+  (min, avg, max) = (4278276,193, 4308606,971, 4329653,359), stdev = 15612,172
+  CI (99.9%): [4285003,594, 4332210,348] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.count":
+  75,000 ±(99.9%) 0,001 counts [Sum]
+  (min, avg, max) = (7,000, 7,500, 8,000), stdev = 0,527
+  CI (99.9%): [75,000, 75,000] (assumes normal distribution)
+
+Secondary result "org.codegenerator.LazyGraphTraversalBenchmark.findMethods:·gc.time":
+  2402,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (105,000, 240,200, 369,000), stdev = 117,521
+  CI (99.9%): [2402,000, 2402,000] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:43:51
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                                    (size)  (type)  Mode  Cnt           Score       Error   Units
+LazyGraphTraversalBenchmark.findMethods                           1       1  avgt   10           0,003 ±     0,001   ms/op
+LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate            1       1  avgt   10        4302,766 ±    65,907  MB/sec
+LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate.norm       1       1  avgt   10       11794,323 ±     0,066    B/op
+LazyGraphTraversalBenchmark.findMethods:·gc.count                 1       1  avgt   10         760,000              counts
+LazyGraphTraversalBenchmark.findMethods:·gc.time                  1       1  avgt   10         442,000                  ms
+LazyGraphTraversalBenchmark.findMethods                           1       2  avgt   10           0,003 ±     0,001   ms/op
+LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate            1       2  avgt   10        3896,112 ±   114,096  MB/sec
+LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate.norm       1       2  avgt   10       11834,716 ±     0,069    B/op
+LazyGraphTraversalBenchmark.findMethods:·gc.count                 1       2  avgt   10         772,000              counts
+LazyGraphTraversalBenchmark.findMethods:·gc.time                  1       2  avgt   10         469,000                  ms
+LazyGraphTraversalBenchmark.findMethods                           1       3  avgt   10           0,003 ±     0,001   ms/op
+LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate            1       3  avgt   10        3073,921 ±    33,246  MB/sec
+LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate.norm       1       3  avgt   10        9017,829 ±     0,428    B/op
+LazyGraphTraversalBenchmark.findMethods:·gc.count                 1       3  avgt   10         441,000              counts
+LazyGraphTraversalBenchmark.findMethods:·gc.time                  1       3  avgt   10         474,000                  ms
+LazyGraphTraversalBenchmark.findMethods                           2       1  avgt   10           0,016 ±     0,001   ms/op
+LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate            2       1  avgt   10        3189,405 ±    26,994  MB/sec
+LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate.norm       2       1  avgt   10       52447,609 ±     0,346    B/op
+LazyGraphTraversalBenchmark.findMethods:·gc.count                 2       1  avgt   10         765,000              counts
+LazyGraphTraversalBenchmark.findMethods:·gc.time                  2       1  avgt   10         460,000                  ms
+LazyGraphTraversalBenchmark.findMethods                           2       2  avgt   10           0,008 ±     0,001   ms/op
+LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate            2       2  avgt   10        3029,921 ±    41,357  MB/sec
+LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate.norm       2       2  avgt   10       26936,984 ±     0,126    B/op
+LazyGraphTraversalBenchmark.findMethods:·gc.count                 2       2  avgt   10         766,000              counts
+LazyGraphTraversalBenchmark.findMethods:·gc.time                  2       2  avgt   10         457,000                  ms
+LazyGraphTraversalBenchmark.findMethods                           2       3  avgt   10           0,009 ±     0,001   ms/op
+LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate            2       3  avgt   10        2162,996 ±    28,006  MB/sec
+LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate.norm       2       3  avgt   10       22687,763 ±     3,789    B/op
+LazyGraphTraversalBenchmark.findMethods:·gc.count                 2       3  avgt   10         336,000              counts
+LazyGraphTraversalBenchmark.findMethods:·gc.time                  2       3  avgt   10         530,000                  ms
+LazyGraphTraversalBenchmark.findMethods                           3       1  avgt   10           0,094 ±     0,001   ms/op
+LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate            3       1  avgt   10        2858,524 ±    20,249  MB/sec
+LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate.norm       3       1  avgt   10      283424,376 ±     1,783    B/op
+LazyGraphTraversalBenchmark.findMethods:·gc.count                 3       1  avgt   10         845,000              counts
+LazyGraphTraversalBenchmark.findMethods:·gc.time                  3       1  avgt   10         476,000                  ms
+LazyGraphTraversalBenchmark.findMethods                           3       2  avgt   10           0,027 ±     0,002   ms/op
+LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate            3       2  avgt   10        2598,286 ±   177,796  MB/sec
+LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate.norm       3       2  avgt   10       74920,801 ±     2,393    B/op
+LazyGraphTraversalBenchmark.findMethods:·gc.count                 3       2  avgt   10         800,000              counts
+LazyGraphTraversalBenchmark.findMethods:·gc.time                  3       2  avgt   10         470,000                  ms
+LazyGraphTraversalBenchmark.findMethods                           3       3  avgt   10           0,035 ±     0,001   ms/op
+LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate            3       3  avgt   10        1419,069 ±    59,868  MB/sec
+LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate.norm       3       3  avgt   10       69187,319 ±    83,527    B/op
+LazyGraphTraversalBenchmark.findMethods:·gc.count                 3       3  avgt   10          90,000              counts
+LazyGraphTraversalBenchmark.findMethods:·gc.time                  3       3  avgt   10         526,000                  ms
+LazyGraphTraversalBenchmark.findMethods                           4       1  avgt   10           0,891 ±     0,023   ms/op
+LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate            4       1  avgt   10        2312,133 ±    60,019  MB/sec
+LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate.norm       4       1  avgt   10     2172004,368 ±    33,166    B/op
+LazyGraphTraversalBenchmark.findMethods:·gc.count                 4       1  avgt   10         735,000              counts
+LazyGraphTraversalBenchmark.findMethods:·gc.time                  4       1  avgt   10         457,000                  ms
+LazyGraphTraversalBenchmark.findMethods                           4       2  avgt   10           0,089 ±     0,008   ms/op
+LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate            4       2  avgt   10        2120,347 ±   190,142  MB/sec
+LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate.norm       4       2  avgt   10      198253,650 ±     9,828    B/op
+LazyGraphTraversalBenchmark.findMethods:·gc.count                 4       2  avgt   10         715,000              counts
+LazyGraphTraversalBenchmark.findMethods:·gc.time                  4       2  avgt   10         459,000                  ms
+LazyGraphTraversalBenchmark.findMethods                           4       3  avgt   10           0,106 ±     0,002   ms/op
+LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate            4       3  avgt   10        1171,669 ±    25,446  MB/sec
+LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate.norm       4       3  avgt   10      198764,501 ±   189,624    B/op
+LazyGraphTraversalBenchmark.findMethods:·gc.count                 4       3  avgt   10          85,000              counts
+LazyGraphTraversalBenchmark.findMethods:·gc.time                  4       3  avgt   10         998,000                  ms
+LazyGraphTraversalBenchmark.findMethods                           5       1  avgt   10          10,753 ±     0,354   ms/op
+LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate            5       1  avgt   10        2024,348 ±    67,981  MB/sec
+LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate.norm       5       1  avgt   10    22952580,225 ±   595,947    B/op
+LazyGraphTraversalBenchmark.findMethods:·gc.count                 5       1  avgt   10         511,000              counts
+LazyGraphTraversalBenchmark.findMethods:·gc.time                  5       1  avgt   10         486,000                  ms
+LazyGraphTraversalBenchmark.findMethods                           5       2  avgt   10           0,228 ±     0,006   ms/op
+LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate            5       2  avgt   10        2026,377 ±    59,221  MB/sec
+LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate.norm       5       2  avgt   10      488043,279 ±    10,393    B/op
+LazyGraphTraversalBenchmark.findMethods:·gc.count                 5       2  avgt   10         710,000              counts
+LazyGraphTraversalBenchmark.findMethods:·gc.time                  5       2  avgt   10         471,000                  ms
+LazyGraphTraversalBenchmark.findMethods                           5       3  avgt   10           0,367 ±     0,001   ms/op
+LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate            5       3  avgt   10         885,416 ±     8,530  MB/sec
+LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate.norm       5       3  avgt   10      592337,961 ±   360,398    B/op
+LazyGraphTraversalBenchmark.findMethods:·gc.count                 5       3  avgt   10          76,000              counts
+LazyGraphTraversalBenchmark.findMethods:·gc.time                  5       3  avgt   10        1255,000                  ms
+LazyGraphTraversalBenchmark.findMethods                           6       1  avgt   10         147,473 ±     5,356   ms/op
+LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate            6       1  avgt   10        1987,170 ±    72,116  MB/sec
+LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate.norm       6       1  avgt   10   308960531,585 ±  6920,829    B/op
+LazyGraphTraversalBenchmark.findMethods:·gc.count                 6       1  avgt   10          90,000              counts
+LazyGraphTraversalBenchmark.findMethods:·gc.time                  6       1  avgt   10         598,000                  ms
+LazyGraphTraversalBenchmark.findMethods                           6       2  avgt   10           0,613 ±     0,013   ms/op
+LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate            6       2  avgt   10        1760,458 ±    37,072  MB/sec
+LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate.norm       6       2  avgt   10     1140048,151 ±    21,051    B/op
+LazyGraphTraversalBenchmark.findMethods:·gc.count                 6       2  avgt   10         740,000              counts
+LazyGraphTraversalBenchmark.findMethods:·gc.time                  6       2  avgt   10         473,000                  ms
+LazyGraphTraversalBenchmark.findMethods                           6       3  avgt   10           1,070 ±     0,020   ms/op
+LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate            6       3  avgt   10         677,297 ±    13,781  MB/sec
+LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate.norm       6       3  avgt   10     1596845,979 ±  6518,685    B/op
+LazyGraphTraversalBenchmark.findMethods:·gc.count                 6       3  avgt   10          76,000              counts
+LazyGraphTraversalBenchmark.findMethods:·gc.time                  6       3  avgt   10        1857,000                  ms
+LazyGraphTraversalBenchmark.findMethods                           7       1  avgt   10        3030,995 ±   161,945   ms/op
+LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate            7       1  avgt   10        1570,000 ±    82,249  MB/sec
+LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate.norm       7       1  avgt   10  5011414653,600 ± 50547,991    B/op
+LazyGraphTraversalBenchmark.findMethods:·gc.count                 7       1  avgt   10          98,000              counts
+LazyGraphTraversalBenchmark.findMethods:·gc.time                  7       1  avgt   10       10382,000                  ms
+LazyGraphTraversalBenchmark.findMethods                           7       2  avgt   10           1,576 ±     0,009   ms/op
+LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate            7       2  avgt   10        1548,757 ±     9,269  MB/sec
+LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate.norm       7       2  avgt   10     2579432,014 ±    23,605    B/op
+LazyGraphTraversalBenchmark.findMethods:·gc.count                 7       2  avgt   10         622,000              counts
+LazyGraphTraversalBenchmark.findMethods:·gc.time                  7       2  avgt   10         458,000                  ms
+LazyGraphTraversalBenchmark.findMethods                           7       3  avgt   10           3,017 ±     0,058   ms/op
+LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate            7       3  avgt   10         514,858 ±    20,304  MB/sec
+LazyGraphTraversalBenchmark.findMethods:·gc.alloc.rate.norm       7       3  avgt   10     4308606,971 ± 23603,377    B/op
+LazyGraphTraversalBenchmark.findMethods:·gc.count                 7       3  avgt   10          75,000              counts
+LazyGraphTraversalBenchmark.findMethods:·gc.time                  7       3  avgt   10        2402,000                  ms
+
+Benchmark result is saved to C:\Users\User\Desktop\project\CodeGenerator\codegenerator\build\results\jmh\results.txt
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 44m 2s
+11 actionable tasks: 7 executed, 4 up-to-date
