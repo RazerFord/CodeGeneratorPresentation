@@ -1,0 +1,150 @@
+Type 1 ArrayList
+     2 HashSet
+     3 HashMap
+
+Size 1; Type 1
+Depth 0; Count 1
+Depth 1; Count 2
+
+Size 1; Type 2
+Depth 0; Count 1
+Depth 1; Count 1
+
+Size 1; Type 3
+Depth 0; Count 1
+Depth 1; Count 1
+
+Size 2; Type 1
+Depth 0; Count 1
+Depth 1; Count 3
+Depth 2; Count 9
+
+Size 2; Type 2
+Depth 0; Count 1
+Depth 1; Count 2
+Depth 2; Count 1
+
+Size 2; Type 3
+Depth 0; Count 1
+Depth 1; Count 2
+Depth 2; Count 1
+
+Size 3; Type 1
+Depth 0; Count 1
+Depth 1; Count 4
+Depth 2; Count 16
+Depth 3; Count 57
+
+Size 3; Type 2
+Depth 0; Count 1
+Depth 1; Count 3
+Depth 2; Count 6
+Depth 3; Count 1
+
+Size 3; Type 3
+Depth 0; Count 1
+Depth 1; Count 3
+Depth 2; Count 6
+Depth 3; Count 1
+
+Size 4; Type 1
+Depth 0; Count 1
+Depth 1; Count 5
+Depth 2; Count 25
+Depth 3; Count 125
+Depth 4; Count 552
+
+Size 4; Type 2
+Depth 0; Count 1
+Depth 1; Count 4
+Depth 2; Count 12
+Depth 3; Count 12
+Depth 4; Count 1
+
+Size 4; Type 3
+Depth 0; Count 1
+Depth 1; Count 4
+Depth 2; Count 12
+Depth 3; Count 12
+Depth 4; Count 1
+
+Size 5; Type 1
+Depth 0; Count 1
+Depth 1; Count 6
+Depth 2; Count 36
+Depth 3; Count 216
+Depth 4; Count 1296
+Depth 5; Count 6925
+
+Size 5; Type 2
+Depth 0; Count 1
+Depth 1; Count 5
+Depth 2; Count 20
+Depth 3; Count 30
+Depth 4; Count 20
+Depth 5; Count 1
+
+Size 5; Type 3
+Depth 0; Count 1
+Depth 1; Count 5
+Depth 2; Count 20
+Depth 3; Count 30
+Depth 4; Count 20
+Depth 5; Count 1
+
+Size 6; Type 1
+Depth 0; Count 1
+Depth 1; Count 7
+Depth 2; Count 49
+Depth 3; Count 343
+Depth 4; Count 2401
+Depth 5; Count 16807
+Depth 6; Count 105792
+
+Size 6; Type 2
+Depth 0; Count 1
+Depth 1; Count 6
+Depth 2; Count 30
+Depth 3; Count 60
+Depth 4; Count 60
+Depth 5; Count 30
+Depth 6; Count 1
+
+Size 6; Type 3
+Depth 0; Count 1
+Depth 1; Count 6
+Depth 2; Count 30
+Depth 3; Count 60
+Depth 4; Count 60
+Depth 5; Count 30
+Depth 6; Count 1
+
+Size 7; Type 1
+Depth 0; Count 1
+Depth 1; Count 8
+Depth 2; Count 64
+Depth 3; Count 512
+Depth 4; Count 4096
+Depth 5; Count 32768
+Depth 6; Count 262144
+Depth 7; Count 1902601
+
+Size 7; Type 2
+Depth 0; Count 1
+Depth 1; Count 7
+Depth 2; Count 42
+Depth 3; Count 105
+Depth 4; Count 140
+Depth 5; Count 105
+Depth 6; Count 42
+Depth 7; Count 1
+
+Size 7; Type 3
+Depth 0; Count 1
+Depth 1; Count 7
+Depth 2; Count 42
+Depth 3; Count 105
+Depth 4; Count 140
+Depth 5; Count 105
+Depth 6; Count 42
+Depth 7; Count 1

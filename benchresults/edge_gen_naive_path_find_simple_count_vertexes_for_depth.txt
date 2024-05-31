@@ -1,0 +1,30 @@
+Type 1 ArrayList
+     2 HashSet
+     3 HashMap
+
+Size 1; Type 1
+Depth 0; Count 1
+Depth 1; Count 3
+
+Size 1; Type 2
+Depth 0; Count 1
+Depth 1; Count 1
+
+Size 1; Type 3
+Depth 0; Count 1
+Depth 1; Count 87
+
+Size 2; Type 1
+Depth 0; Count 1
+Depth 1; Count 5
+Depth 2; Count 18
+
+Size 2; Type 2
+Depth 0; Count 1
+Depth 1; Count 13
+Depth 2; Count 5
+
+Size 2; Type 3
+Depth 0; Count 1
+Depth 1; Count 167
+Depth 2; Count 125602

@@ -1,0 +1,333 @@
+Type 1 ArrayList
+     2 HashSet
+     3 HashMap
+
+Size 1; Type 2
+Depth 0; Count 1
+Depth 1; Count 1
+
+Size 1; Type 3
+Depth 0; Count 1
+Depth 1; Count 1
+
+Size 2; Type 2
+Depth 0; Count 1
+Depth 1; Count 2
+Depth 2; Count 1
+
+Size 2; Type 3
+Depth 0; Count 1
+Depth 1; Count 2
+Depth 2; Count 1
+
+Size 3; Type 2
+Depth 0; Count 1
+Depth 1; Count 3
+Depth 2; Count 6
+Depth 3; Count 1
+
+Size 3; Type 3
+Depth 0; Count 1
+Depth 1; Count 3
+Depth 2; Count 6
+Depth 3; Count 1
+
+Size 4; Type 2
+Depth 0; Count 1
+Depth 1; Count 4
+Depth 2; Count 12
+Depth 3; Count 12
+Depth 4; Count 1
+
+Size 4; Type 3
+Depth 0; Count 1
+Depth 1; Count 4
+Depth 2; Count 12
+Depth 3; Count 12
+Depth 4; Count 1
+
+Size 5; Type 2
+Depth 0; Count 1
+Depth 1; Count 5
+Depth 2; Count 20
+Depth 3; Count 30
+Depth 4; Count 20
+Depth 5; Count 1
+
+Size 5; Type 3
+Depth 0; Count 1
+Depth 1; Count 5
+Depth 2; Count 20
+Depth 3; Count 30
+Depth 4; Count 20
+Depth 5; Count 1
+
+Size 6; Type 2
+Depth 0; Count 1
+Depth 1; Count 6
+Depth 2; Count 30
+Depth 3; Count 60
+Depth 4; Count 60
+Depth 5; Count 30
+Depth 6; Count 1
+
+Size 6; Type 3
+Depth 0; Count 1
+Depth 1; Count 6
+Depth 2; Count 30
+Depth 3; Count 60
+Depth 4; Count 60
+Depth 5; Count 30
+Depth 6; Count 1
+
+Size 7; Type 2
+Depth 0; Count 1
+Depth 1; Count 7
+Depth 2; Count 42
+Depth 3; Count 105
+Depth 4; Count 140
+Depth 5; Count 105
+Depth 6; Count 42
+Depth 7; Count 1
+
+Size 7; Type 3
+Depth 0; Count 1
+Depth 1; Count 7
+Depth 2; Count 42
+Depth 3; Count 105
+Depth 4; Count 140
+Depth 5; Count 105
+Depth 6; Count 42
+Depth 7; Count 1
+
+Size 8; Type 2
+Depth 0; Count 1
+Depth 1; Count 8
+Depth 2; Count 56
+Depth 3; Count 168
+Depth 4; Count 280
+Depth 5; Count 280
+Depth 6; Count 168
+Depth 7; Count 56
+Depth 8; Count 1
+
+Size 8; Type 3
+Depth 0; Count 1
+Depth 1; Count 8
+Depth 2; Count 56
+Depth 3; Count 168
+Depth 4; Count 280
+Depth 5; Count 280
+Depth 6; Count 168
+Depth 7; Count 56
+Depth 8; Count 1
+
+Size 9; Type 2
+Depth 0; Count 1
+Depth 1; Count 9
+Depth 2; Count 72
+Depth 3; Count 252
+Depth 4; Count 504
+Depth 5; Count 630
+Depth 6; Count 504
+Depth 7; Count 252
+Depth 8; Count 72
+Depth 9; Count 1
+
+Size 9; Type 3
+Depth 0; Count 1
+Depth 1; Count 9
+Depth 2; Count 72
+Depth 3; Count 252
+Depth 4; Count 504
+Depth 5; Count 630
+Depth 6; Count 504
+Depth 7; Count 252
+Depth 8; Count 72
+Depth 9; Count 1
+
+Size 10; Type 2
+Depth 0; Count 1
+Depth 1; Count 10
+Depth 2; Count 90
+Depth 3; Count 360
+Depth 4; Count 840
+Depth 5; Count 1260
+Depth 6; Count 1260
+Depth 7; Count 840
+Depth 8; Count 360
+Depth 9; Count 90
+Depth 10; Count 1
+
+Size 10; Type 3
+Depth 0; Count 1
+Depth 1; Count 10
+Depth 2; Count 90
+Depth 3; Count 360
+Depth 4; Count 840
+Depth 5; Count 1260
+Depth 6; Count 1260
+Depth 7; Count 840
+Depth 8; Count 360
+Depth 9; Count 90
+Depth 10; Count 1
+
+Size 11; Type 2
+Depth 0; Count 1
+Depth 1; Count 11
+Depth 2; Count 110
+Depth 3; Count 495
+Depth 4; Count 1320
+Depth 5; Count 2310
+Depth 6; Count 2772
+Depth 7; Count 2310
+Depth 8; Count 1320
+Depth 9; Count 495
+Depth 10; Count 110
+Depth 11; Count 1
+
+Size 11; Type 3
+Depth 0; Count 1
+Depth 1; Count 11
+Depth 2; Count 110
+Depth 3; Count 495
+Depth 4; Count 1320
+Depth 5; Count 2310
+Depth 6; Count 2772
+Depth 7; Count 2310
+Depth 8; Count 1320
+Depth 9; Count 495
+Depth 10; Count 110
+Depth 11; Count 1
+
+Size 12; Type 2
+Depth 0; Count 1
+Depth 1; Count 12
+Depth 2; Count 132
+Depth 3; Count 660
+Depth 4; Count 1980
+Depth 5; Count 3960
+Depth 6; Count 5544
+Depth 7; Count 5544
+Depth 8; Count 3960
+Depth 9; Count 1980
+Depth 10; Count 660
+Depth 11; Count 132
+Depth 12; Count 1
+
+Size 12; Type 3
+Depth 0; Count 1
+Depth 1; Count 12
+Depth 2; Count 132
+Depth 3; Count 660
+Depth 4; Count 1980
+Depth 5; Count 3960
+Depth 6; Count 5544
+Depth 7; Count 5544
+Depth 8; Count 3960
+Depth 9; Count 1980
+Depth 10; Count 660
+Depth 11; Count 132
+Depth 12; Count 1
+
+Size 13; Type 2
+Depth 0; Count 1
+Depth 1; Count 13
+Depth 2; Count 156
+Depth 3; Count 858
+Depth 4; Count 2860
+Depth 5; Count 6435
+Depth 6; Count 10296
+Depth 7; Count 12012
+Depth 8; Count 10296
+Depth 9; Count 6435
+Depth 10; Count 2860
+Depth 11; Count 858
+Depth 12; Count 156
+Depth 13; Count 1
+
+Size 13; Type 3
+Depth 0; Count 1
+Depth 1; Count 13
+Depth 2; Count 156
+Depth 3; Count 858
+Depth 4; Count 2860
+Depth 5; Count 6435
+Depth 6; Count 10296
+Depth 7; Count 12012
+Depth 8; Count 10296
+Depth 9; Count 6435
+Depth 10; Count 2860
+Depth 11; Count 858
+Depth 12; Count 156
+Depth 13; Count 1
+
+Size 14; Type 2
+Depth 0; Count 1
+Depth 1; Count 14
+Depth 2; Count 182
+Depth 3; Count 1092
+Depth 4; Count 4004
+Depth 5; Count 10010
+Depth 6; Count 18018
+Depth 7; Count 24024
+Depth 8; Count 24024
+Depth 9; Count 18018
+Depth 10; Count 10010
+Depth 11; Count 4004
+Depth 12; Count 1092
+Depth 13; Count 182
+Depth 14; Count 1
+
+Size 14; Type 3
+Depth 0; Count 1
+Depth 1; Count 14
+Depth 2; Count 182
+Depth 3; Count 1092
+Depth 4; Count 4004
+Depth 5; Count 10010
+Depth 6; Count 18018
+Depth 7; Count 24024
+Depth 8; Count 24024
+Depth 9; Count 18018
+Depth 10; Count 10010
+Depth 11; Count 4004
+Depth 12; Count 1092
+Depth 13; Count 182
+Depth 14; Count 1
+
+Size 15; Type 2
+Depth 0; Count 1
+Depth 1; Count 15
+Depth 2; Count 210
+Depth 3; Count 1365
+Depth 4; Count 5460
+Depth 5; Count 15015
+Depth 6; Count 30030
+Depth 7; Count 45045
+Depth 8; Count 51480
+Depth 9; Count 45045
+Depth 10; Count 30030
+Depth 11; Count 15015
+Depth 12; Count 5460
+Depth 13; Count 1365
+Depth 14; Count 210
+Depth 15; Count 1
+
+Size 15; Type 3
+Depth 0; Count 1
+Depth 1; Count 15
+Depth 2; Count 210
+Depth 3; Count 1365
+Depth 4; Count 5460
+Depth 5; Count 15015
+Depth 6; Count 30030
+Depth 7; Count 45045
+Depth 8; Count 51480
+Depth 9; Count 45045
+Depth 10; Count 30030
+Depth 11; Count 15015
+Depth 12; Count 5460
+Depth 13; Count 1365
+Depth 14; Count 210
+Depth 15; Count 1
